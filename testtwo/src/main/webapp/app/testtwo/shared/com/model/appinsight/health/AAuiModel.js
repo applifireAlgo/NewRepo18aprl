@@ -1,0 +1,44 @@
+Ext.define('Testtwo.testtwo.shared.com.model.appinsight.health.AAuiModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "a1",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "a2",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "a3",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "a4",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "a5",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "b1",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "b2",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "b3",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "b4",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "b5",
+          "type": "auto",
+          "defaultValue": ""
+     }]
+});

@@ -1,0 +1,94 @@
+Ext.define('Testtwo.testtwo.web.com.view.appinsight.health.AAui', {
+     "xtype": "aAui",
+     "items": [{
+          "xtype": "textfield",
+          "fieldLabel": "TextField",
+          "margin": 5,
+          "bindable": "a1",
+          "name": "a1",
+          "itemId": "textfield_ext_5168"
+     }, {
+          "xtype": "textfield",
+          "fieldLabel": "TextField",
+          "margin": 5,
+          "bindable": "a2",
+          "name": "a2",
+          "itemId": "textfield_ext_5180"
+     }, {
+          "xtype": "textfield",
+          "fieldLabel": "TextField",
+          "margin": 5,
+          "bindable": "a3",
+          "name": "a3",
+          "itemId": "textfield_ext_5192"
+     }, {
+          "xtype": "textfield",
+          "fieldLabel": "TextField",
+          "margin": 5,
+          "bindable": "a4",
+          "name": "a4",
+          "itemId": "textfield_ext_5206"
+     }, {
+          "xtype": "textfield",
+          "fieldLabel": "TextField",
+          "margin": 5,
+          "bindable": "a5",
+          "name": "a5",
+          "itemId": "textfield_ext_5222"
+     }, {
+          "xtype": "button",
+          "name": "b1",
+          "text": "Button",
+          "margin": 5,
+          "itemId": "button_ext_5241",
+          "listeners": {
+               "click": "onB1Click"
+          }
+     }, {
+          "xtype": "button",
+          "name": "b2",
+          "text": "Button",
+          "margin": 5,
+          "itemId": "button_ext_5261",
+          "listeners": {
+               "click": "onB2Click"
+          }
+     }, {
+          "xtype": "button",
+          "name": "b3",
+          "text": "Button",
+          "margin": 5,
+          "itemId": "button_ext_5283",
+          "listeners": {
+               "click": "onB3Click"
+          }
+     }, {
+          "xtype": "button",
+          "name": "b4",
+          "text": "Button",
+          "margin": 5,
+          "itemId": "button_ext_5876",
+          "listeners": {
+               "click": "onB4Click"
+          }
+     }, {
+          "xtype": "button",
+          "name": "b5",
+          "text": "Button",
+          "margin": 5,
+          "itemId": "button_ext_5907",
+          "listeners": {
+               "click": "onB5Click"
+          }
+     }],
+     "border": true,
+     "autoScroll": true,
+     "title": "Form",
+     "margin": 5,
+     "itemId": "form_ext_5159",
+     "dockedItems": [],
+     "extend": "Ext.form.Panel",
+     "requires": ["Testtwo.testtwo.web.com.controller.appinsight.health.AAuiController", "Testtwo.testtwo.shared.com.viewmodel.appinsight.health.AAuiViewModel", "Testtwo.testtwo.shared.com.model.appinsight.health.AAuiModel"],
+     "viewModel": "AAuiViewModel",
+     "controller": "AAuiController"
+});
