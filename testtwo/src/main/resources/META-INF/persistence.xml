@@ -54,6 +54,8 @@
     <class>com.app.shared.aaaboundedcontext.authorization.AppMenus</class>
     <class>com.app.shared.aaaboundedcontext.authorization.RoleMenuBridge</class>
     <class>com.app.shared.aaaboundedcontext.authorization.UserRoleBridge</class>
+    <class>com.app.shared.appinsight.health.TestOne</class>
+    <class>com.app.shared.appinsight.health.AA</class>
     </persistence-unit>
 
 </persistence>
