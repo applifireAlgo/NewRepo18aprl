@@ -29,7 +29,7 @@ import javax.persistence.NamedQueries;
 @Table(name = "ast_TestOne_T")
 @Entity
 @Cache(type = CacheType.CACHE)
-@SourceCodeAuthorClass(createdBy = "shweta.zagade@algorhythm.co.in", updatedBy = "", versionNumber = "1", comments = "TestOne", complexity = Complexity.LOW)
+@SourceCodeAuthorClass(createdBy = "shweta.zagade@algorhythm.co.in", updatedBy = "shweta.zagade@algorhythm.co.in", versionNumber = "2", comments = "TestOne", complexity = Complexity.LOW)
 @NamedQueries({ @javax.persistence.NamedQuery(name = "TestOne.findById", query = "select e from TestOne e where e.systemInfo.activeStatus=1 and e.rrrr =:rrrr") })
 public class TestOne implements Serializable, CommonEntityInterface, Comparator<TestOne> {
 

@@ -103,7 +103,7 @@ public class TestOneTestCase extends EntityTestCriteria {
 
     private TestOne createTestOne(Boolean isSave) throws SpartanPersistenceException, SpartanConstraintViolationException {
         TestOne testone = new TestOne();
-        testone.setSasa("fXYl5z8GSJGPFZZ8tAF8YOQMtzM4CmfgGfwZy9GzZEMH6c6Jcp");
+        testone.setSasa("vxb2HHYRFA8gef5W26fshi2J97sgU1kS15PiNDvXr2e3vvLCW8");
         testone.setEntityValidator(entityValidator);
         return testone;
     }
@@ -128,7 +128,7 @@ public class TestOneTestCase extends EntityTestCriteria {
         try {
             org.junit.Assert.assertNotNull(map.get("TestOnePrimaryKey"));
             TestOne testone = testoneRepository.findById((java.lang.String) map.get("TestOnePrimaryKey"));
-            testone.setSasa("ItAANAoeXrK92Pv2GQSsTNEOvMcbdjN8ocoZN412oXRzgLOWyH");
+            testone.setSasa("J9onK67JqeGZT5j3GrrLQPSN4BSZERHbLVb5q1YQQl6wBimyF3");
             testone.setVersionId(1);
             testone.setEntityAudit(1, "xyz", RECORD_TYPE.UPDATE);
             testoneRepository.update(testone);
@@ -178,7 +178,7 @@ public class TestOneTestCase extends EntityTestCriteria {
     private List<EntityTestCriteria> addingListOfFieldForNegativeTesting() {
         List<EntityTestCriteria> entityContraints = new java.util.ArrayList<EntityTestCriteria>();
         entityContraints.add(new EntityTestCriteria(NOT_NULL, 1, "sasa", null));
-        entityContraints.add(new EntityTestCriteria(MIN_MAX, 2, "sasa", "Vo6msbzqZTbO3nn1zoFMaV22dEy8gbegGkmYkdWKG9xenCKEgYOhBk283PuDZTx3TKcf7czHycogJJ0Ez2gU3R9Ei8cg94bavRYV9VEeVaVvJo2oS3khOLc8XQv7yIt9Nx7KqkGdOvybtT7HmWwsiwflF81IQxYCWL9B6sAK4qYNXullwAQ6w6b0ax8ha3LS5U8AmbrWpW17hLdKppCnESJ9I5YmTdTeQPKVdaMIbmJd1w6bOYCvcsEXgmPGnBEts"));
+        entityContraints.add(new EntityTestCriteria(MIN_MAX, 2, "sasa", "3962e5ic1wy6tZDzYvmgshAHtEltO49lMMCIttemMW0To4wqoUjwNh5OGzE5dx8OssK4mjceSkup2QCU8xPV5ycxAWPBWMtXQzAKTNr5mR1HYc6ocUhvWsBMJQpl2BUxdRlevsCfcDinF2xFACAQwa6mL6GRt0dYrFKlB8x0ZRUzX2HUE4bkZYpSfTeP9wOFI8qfsNWsgUbsO15yg072F5imIZSFsxTrXpjVzqaY9EVFBLevARPYABn9DLSYNXwlV"));
         return entityContraints;
     }
 

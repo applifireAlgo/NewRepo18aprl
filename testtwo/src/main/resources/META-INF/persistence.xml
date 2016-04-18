@@ -56,6 +56,21 @@
     <class>com.app.shared.aaaboundedcontext.authorization.UserRoleBridge</class>
     <class>com.app.shared.appinsight.health.TestOne</class>
     <class>com.app.shared.appinsight.health.AA</class>
+    <class>com.app.shared.organizationboundedcontext.location.Address</class>
+    <class>com.app.shared.organizationboundedcontext.contacts.CoreContacts</class>
+    <class>com.app.shared.appinsight.health.TestOne</class>
+    <class>com.app.shared.appinsight.health.BB</class>
+    <class>com.app.shared.appinsight.health.TESTB</class>
+    <class>com.app.shared.appinsight.health.CA</class>
+    <class>com.app.shared.appinsight.health.Dsds</class>
+    <class>com.app.shared.appinsight.health.Neww</class>
+    <class>com.app.shared.appinsight.health.Nhh</class>
+    <class>com.app.shared.aaaboundedcontext.authorization.Roles</class>
+    <class>com.app.shared.appinsight.health.Mynew</class>
+    <class>com.app.shared.appinsight.health.DD</class>
+    <class>com.app.shared.appinsight.health.Ddfdf</class>
+    <class>com.app.shared.appinsight.health.Ghgh</class>
+    <class>com.app.shared.appinsight.health.Hgh</class>
     </persistence-unit>
 
 </persistence>

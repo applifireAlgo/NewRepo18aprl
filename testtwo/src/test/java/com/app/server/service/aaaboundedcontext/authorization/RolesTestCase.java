@@ -106,26 +106,26 @@ public class RolesTestCase extends EntityTestCriteria {
 
     private Roles createRoles(Boolean isSave) throws SpartanPersistenceException, SpartanConstraintViolationException {
         Roles roles = new Roles();
-        roles.setRoleName("Gn7lcB6RcMWK7l7XFOmxZ8I07M5XqK6zqxjJqIl5TBaBo6TzqP");
-        roles.setRoleIcon("a6Knog3ouNUbjZmLsursr4jd9ntmah8cnDBjcvjkXLDchi8KxD");
-        roles.setRoleDescription("9JhKPdsmsVTUuWXS30l7LzSFgFcqm28F2e0eSbtI8pyXIHLVFQ");
-        roles.setRoleHelp("hfn0PWFASsdLYtBxSBr4RufwwDoIkf1oJHp94qU2iUGWHxIuEF");
+        roles.setRoleName("XNknWKGBXvffB6jaZw20uCRIcxLrucRGMcBogj1vOh7y1bbfw3");
+        roles.setRoleIcon("CmlHxM2R1d0ndSK0jMZIKM90zinKtSFpLCkDh8aY1fvRrnhqWv");
+        roles.setRoleDescription("WR3h3XKLYBA7oxMPX8CnPveZ268ZMLFZmmsoObaPyKvcqIoDM0");
+        roles.setRoleHelp("YFuGFJL1LGvj0yVoDdfhcaZYWgYZG8Xs3UF4bjAAaXT3CadWGr");
         java.util.List<RoleMenuBridge> listOfRoleMenuBridge = new java.util.ArrayList<RoleMenuBridge>();
         RoleMenuBridge rolemenubridge = new RoleMenuBridge();
         AppMenus appmenus = new AppMenus();
-        appmenus.setMenuCommands("wLCSL7VDTAre9nNvvxZvqDwh3uyenZGBtvRszvBLOLx161S7Cl");
-        appmenus.setMenuIcon("Fj7tFI1IBISKESOu1yQGm2X6u6FWCh8MDsvp1JwDDPXtHrFYLE");
-        appmenus.setRefObjectId("m9ChuUWfwmWsI6M5EXohH13LcOd3UVjZzJH5mT2IDvtwpmrDw6");
+        appmenus.setMenuCommands("RNgboFqrEFaWafa52OIWctcZJUKljn1EI0cmFlaSRqaMznayJM");
+        appmenus.setMenuIcon("pweOoePSrEXzL6U9hLVPQauGpsYC5EOliR87U5RwdNJ0uZks7W");
+        appmenus.setRefObjectId("Qp5M1sZGAC8LHoCd8bVN6py0LeRihK8L071oels4gzCGvNsmYR");
         appmenus.setAppType(1);
-        appmenus.setMenuLabel("ExNpYujqf1SIBFcL7vYuKwdaLC7RfAxO1mQDhrSa30zRKPhxq7");
+        appmenus.setMenuLabel("NfZRjrtZQtXUJ4SDuXw6HMbdPygb6jvokeLtHUHKbhQN9e7wES");
         appmenus.setMenuDisplay(true);
         appmenus.setMenuHead(true);
-        appmenus.setUiType("M69");
-        appmenus.setMenuAction("dktqNzVkN1mOrsqBGRqVKsqt05jmylgJQSyOWDvr9idHbEv1XU");
+        appmenus.setUiType("sEq");
+        appmenus.setMenuAction("5ClC19NFWMpAbMyb8jCbvf1KZXYGaIjO1Y83KlZnxvVHkMY2lt");
         appmenus.setAutoSave(true);
-        appmenus.setMenuAccessRights(3);
-        appmenus.setMenuTreeId("WLiUw1TophnmUr9QuHLZt7i2un3jKYiF7bLVslVgIwv9Z3gvxL");
-        appmenus.setAppId("nDId3hfqh9pX9hmHYlZpeAKRrw8Su1J4KJtJGFq2YRyMbqNvLN");
+        appmenus.setMenuAccessRights(4);
+        appmenus.setMenuTreeId("yKc30Ih2tsyh56edOx96QCasxP4ieEFhYdsz8yo3mnU1TrsizK");
+        appmenus.setAppId("4nxR3ciYE51rUNczaV8EecHX5j2NhfH3dvzrzMOet1JUqvqmEJ");
         AppMenus AppMenusTest = new AppMenus();
         if (isSave) {
             AppMenusTest = appmenusRepository.save(appmenus);
@@ -165,11 +165,11 @@ public class RolesTestCase extends EntityTestCriteria {
         try {
             org.junit.Assert.assertNotNull(map.get("RolesPrimaryKey"));
             Roles roles = rolesRepository.findById((java.lang.String) map.get("RolesPrimaryKey"));
-            roles.setRoleName("sZ5b3RtSxj78BvMX9ewTgG1pjVUU5OPwXcOLSQsKBjLo9VHUtc");
-            roles.setRoleIcon("GjZoyM8Rk2fouwEL7KbbQw88wA9o0hPeXnXbu5p61Z8wqIUJRv");
+            roles.setRoleName("so2PA0JcPyjOd0QWe7aMjJICv3h4aAKWS1aNIrwwdvQOtb2EDY");
+            roles.setRoleIcon("BKcx9UKZsIeTHZhZ4nz0dBMlJTjgh2X7vunG3pviRPwnarwVcd");
             roles.setVersionId(1);
-            roles.setRoleDescription("6UBFHO4DiVbFidjW5I3k2IxtcqJve4uqw8phxAd3a3cMuwnZpf");
-            roles.setRoleHelp("VxpiEc7TCvZP5LNeqfjLpsn4ywukToFDdz4YfUjlbFexzdR27k");
+            roles.setRoleDescription("PSPWDvCSUjUCq7RNTydpmJSO1iNIgNebBDeW5Uv3iAGZ1lI0K9");
+            roles.setRoleHelp("eDTg5kJgpuv2Zcb5bXsEFqF5GcSgmrqpv8u6Gnmp9AAw5iNwNg");
             roles.setEntityAudit(1, "xyz", RECORD_TYPE.UPDATE);
             rolesRepository.update(roles);
         } catch (com.athena.framework.server.exception.repository.SpartanPersistenceException e) {
@@ -219,11 +219,11 @@ public class RolesTestCase extends EntityTestCriteria {
     private List<EntityTestCriteria> addingListOfFieldForNegativeTesting() {
         List<EntityTestCriteria> entityContraints = new java.util.ArrayList<EntityTestCriteria>();
         entityContraints.add(new EntityTestCriteria(NOT_NULL, 1, "RoleName", null));
-        entityContraints.add(new EntityTestCriteria(MIN_MAX, 2, "roleName", "KLPnATgzL35HLjAzvrqep575ThzXLQEywkZh1omwN1pMf3qyei1HDkWDbTITNoqiUp9aYT6oNVBckzTszuaxxeGTBBUJx0UG1n0GQwfU2BW87LdtBMJSgeqHfW8wD2UQ9RPNd5ZfFB2CA55MNPzHebMnOJWaIwVhe7SeDOAruopStYKG7SEqP5BWBdulb0sIx8oimFrMAiJhgvEDYcg3AIBkmbS6n8y384T9zEysW4qyVojzWqnch0ZgMYOcOvy3N"));
+        entityContraints.add(new EntityTestCriteria(MIN_MAX, 2, "roleName", "HZZEDAVz01Eexzsui7IrhJ8TAIRLvnhDhGBePlXBxdw8jlA5lnnKADx9TJ6K8O0fIW2uIRJ8rkMETQkpvpBNlsPqMUd8aU97bEiItOIHKrr0CP3MtyCrhekRyAsnTeeRPQeDEhbZtwB4Cim0ufScKSj9gm6xqqgtuf6f8GXmZAzE1wgClXCA8W9EUZdtXTE6HHxtCM8inVKBRUpCjy6c2jzts0qZXGFtXwM1uDr4v8DaC6ATsMG72be1dayKkVqLi"));
         entityContraints.add(new EntityTestCriteria(NOT_NULL, 3, "RoleDescription", null));
-        entityContraints.add(new EntityTestCriteria(MIN_MAX, 4, "roleDescription", "dYnqHWOWzRDRkHgIxd32rM50BpBFntr4qLb1EzbJQ6IvC52f4MyeCib2K5Btputb5Lhxlmcm9rjMKOx08pNJgozNpKBSn1Ic6Rlqw2BVcYZWBks9as7pVNas5wLWS5gteNziNhG7sX33jhB9MJP0iwkTG9UZSvmjYvz6cU51weXpIqltvJShsq1bfKnVdxb1NkToOYOyZavnrhTLd3B0nka9WbUVI0ayEj5arSZ2uVe8w1joKd5nqsij28n4VWg5E"));
-        entityContraints.add(new EntityTestCriteria(MIN_MAX, 5, "roleIcon", "0NZ2bRxJTC9odA5fc419BlknjGW9ukCMgZh22MF2ofWnr9HUebWIkqNIA4YkSBXmx"));
-        entityContraints.add(new EntityTestCriteria(MIN_MAX, 6, "roleHelp", "P2Lsv7S0WJtUaSZfeoFC1bGcnLWC8yN69sJlbrgU644DTItK30NeYIczBIvNZKHpU4CMYH10B7MtlMDtjqyOFqTSK9M7yb7RCelSzUbuTVGv7SiL8AlDqLic22RJAbJTX0TRch309FAcdah7j1sO7EiCB7ftTDOBoVqIBXFEIhzljinogJ3SJ5SxgJIP2I69OBkfU6C9MRz0CjzlNarOXUrRJCmtg6g8zLu0flmxbrOalkDORdWpcYazAYW0nGi4J"));
+        entityContraints.add(new EntityTestCriteria(MIN_MAX, 4, "roleDescription", "5Z1m4fvpuzHX8C6tgGRMZui9TXEaCZcLIyYpI3fS2wo6aEfhRE83vAsiKsLnfrARnk3wpK7UOZ5UEjNQKFmlB5Yy9qMzmJcaBjmktAeduIBPYzPExho6tqPnJtgRu4zXXg3AyAUFKdhrMJVSRqbEFWrLGDtqUNZvSxfZ0hTSImzlf83OyKpAh9J2vLt06AafNM8krwUsn1geypEwF3Myd6G4cmJjLUgLElNHz4OXo1aD3NdI2rDq1163K2dXCIryz"));
+        entityContraints.add(new EntityTestCriteria(MIN_MAX, 5, "roleIcon", "ZCgUP5TQMhtnvupSgDH1mFjtkOS919Tlx5EEIYk8oQPmx1wKVhpnXouO8SxjMNsmB"));
+        entityContraints.add(new EntityTestCriteria(MIN_MAX, 6, "roleHelp", "zNSQGeXj3s7QV6Recw0UO2Wh1i0z7MibAiJ4hnHRRfSdJzqvJlYcZ50BsaObQKEdFp7nrVRX4BmmPSiD4YGbXfBZHPETn2YRLYJy9L3DsJ5gS4qsVLc8bgccHx4i8HTiE4DwMg6ftgxpx2LY7HHiQDcOdsL5gkE8aNTlmAkJnX6VG2of9ix3J57Djiv32P0fTpMyNyw3bpWjZK3bsmvSS6KgjeGsEH9xiksOSYBkgGtyPcDQ3xsBxnh5PtwtitxKg"));
         return entityContraints;
     }
 

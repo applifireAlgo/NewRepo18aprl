@@ -36,7 +36,7 @@ import javax.persistence.NamedQueries;
 @Table(name = "ast_Roles_T")
 @Entity
 @Cache(type = CacheType.CACHE, isolation = CacheIsolationType.ISOLATED)
-@SourceCodeAuthorClass(createdBy = "shweta.zagade@algorhythm.co.in", updatedBy = "", versionNumber = "1", comments = "Roles", complexity = Complexity.LOW)
+@SourceCodeAuthorClass(createdBy = "shweta.zagade@algorhythm.co.in", updatedBy = "shweta.zagade@algorhythm.co.in", versionNumber = "3", comments = "Roles", complexity = Complexity.LOW)
 @JsonIdentityInfo(generator = PropertyGenerator.class, property = "roleId")
 @NamedQueries({ @javax.persistence.NamedQuery(name = "Roles.findById", query = "select e from Roles e where e.systemInfo.activeStatus=1 and e.roleId =:roleId") })
 public class Roles implements Serializable, CommonEntityInterface, Comparator<Roles> {

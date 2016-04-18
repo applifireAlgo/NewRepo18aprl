@@ -1,0 +1,36 @@
+Ext.define('Testtwo.testtwo.shared.com.model.appinsight.health.TESTBModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "aaaaa",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "bc",
+          "reference": "Country",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "TestOne",
+          "reference": "TestOneModel"
+     }, {
+          "name": "Address",
+          "reference": "AddressModel"
+     }, {
+          "name": "CoreContacts",
+          "reference": "CoreContactsModel"
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

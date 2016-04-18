@@ -138,242 +138,242 @@ public class LoginTestCase extends EntityTestCriteria {
 
     private Login createLogin(Boolean isSave) throws SpartanPersistenceException, SpartanConstraintViolationException {
         User user = new User();
-        user.setPasswordAlgo("DF3s6cIu6dq9HLVxEt8OAY6P8CqcJ2FeS4ReQatFOaoUO9zluz");
+        user.setPasswordAlgo("d1UjeEQOOOtOoGQ38CY14vnflJ9k2UCL2mkfzqUEMMyn4FgRfo");
         user.setGenTempOneTimePassword(1);
         UserAccessLevel useraccesslevel = new UserAccessLevel();
-        useraccesslevel.setLevelHelp("wy7RI7pBLwsXjz8drYuLRBFon3fdfzvQFI7kp9IgYNMylHmbz3");
+        useraccesslevel.setLevelHelp("ZGoPzcrlQQOygK6tIQuo8V9CiuSR2HUmbjxRdBO7lzStLY41En");
         useraccesslevel.setUserAccessLevel(valueGenerator.getRandomInteger(99999, 0));
-        useraccesslevel.setLevelIcon("mkmfofDuOhuByvCq2wplYd2vbEotEoxtt8wPmRlmhWi9iwrcvI");
-        useraccesslevel.setLevelDescription("relAUmMWlrAVYUIQwFFXZbOQpY2qSgedktSoi8EsL72pFRfOnD");
-        useraccesslevel.setLevelName("5IWhOT4jZdG0FbI0JxCylTXoQ3cjmVIhdcewcbIYb6Etv5ErMo");
+        useraccesslevel.setLevelIcon("JtyrQ8wI9gpika39fV5gfjltKkm91nt2RzTZaiudh3D3ouJxSR");
+        useraccesslevel.setLevelDescription("uUEirpKVpBtL4kRSgyzoRyvMKfS9M7bxqfmPnmroBYTgpE0OPu");
+        useraccesslevel.setLevelName("ijVEUPGbOHmCF7VLf1ROZ7xoEjMMA6ZZTynJ18VpTVzvzR0ycg");
         UserAccessLevel UserAccessLevelTest = new UserAccessLevel();
         if (isSave) {
             UserAccessLevelTest = useraccesslevelRepository.save(useraccesslevel);
             map.put("UserAccessLevelPrimaryKey", useraccesslevel._getPrimarykey());
         }
         UserAccessDomain useraccessdomain = new UserAccessDomain();
-        useraccessdomain.setDomainName("Ck1Nph6REGoTY4rffgzeHaAdK9axDjodAq84Q8oPDqf3MmTY9w");
-        useraccessdomain.setDomainIcon("PQtpbdEWKBAd6R0Hcaz1IKDGDclaa788fB71RvG99vciecSvTv");
+        useraccessdomain.setDomainName("iV3az8GHHrmEVGR0j4NJwHn29oOoaxX9VUFkfOS7hAyKphueks");
+        useraccessdomain.setDomainIcon("hms1rZRsVA9pVjQAUTSKChxiJwzSqObbKKnnw7KmZpjteQ6wW5");
         useraccessdomain.setUserAccessDomain(valueGenerator.getRandomInteger(99999, 0));
-        useraccessdomain.setDomainDescription("PDGKI8CwDbBo1IU59WVInBl8SulVBcpv9FvB7cPq1N6YclWeiU");
-        useraccessdomain.setDomainHelp("QVpUbOPjMTJefSh9Z8AtKxMj6tRCLgB7Y9DOomT8q7KdB4YoWJ");
+        useraccessdomain.setDomainDescription("sBnQyZjAfnRZWG3HBI0937rY5RiusLp8zxrdLdPiedN0vQgXeC");
+        useraccessdomain.setDomainHelp("6IapAaDV3S4ruG2I9NuKSM2pyu7l7KnQRUpm01b3DOs16bq9Vb");
         UserAccessDomain UserAccessDomainTest = new UserAccessDomain();
         if (isSave) {
             UserAccessDomainTest = useraccessdomainRepository.save(useraccessdomain);
             map.put("UserAccessDomainPrimaryKey", useraccessdomain._getPrimarykey());
         }
-        user.setPasswordAlgo("Yb5odjhLUL7OV7uvYlVk0FG21rjE4Lx8EZ4G7LNXv03e65QZwF");
+        user.setPasswordAlgo("VpKBuqdrhnpA2mpUi3VjkpH2DyvnbajWfYXbjn1D0HBHPGVsud");
         user.setGenTempOneTimePassword(1);
         user.setUserAccessLevelId((java.lang.String) UserAccessLevelTest._getPrimarykey()); /* ******Adding refrenced table data */
         user.setIsDeleted(1);
-        user.setPasswordExpiryDate(new java.sql.Timestamp(1460975174878l));
+        user.setPasswordExpiryDate(new java.sql.Timestamp(1460977054222l));
         user.setMultiFactorAuthEnabled(1);
         user.setAllowMultipleLogin(1);
         user.setChangePasswordNextLogin(1);
         user.setUserAccessDomainId((java.lang.String) UserAccessDomainTest._getPrimarykey()); /* ******Adding refrenced table data */
         user.setIsLocked(1);
-        user.setSessionTimeout(2510);
-        user.setUserAccessCode(55555);
-        user.setLastPasswordChangeDate(new java.sql.Timestamp(1460975174917l));
+        user.setSessionTimeout(65);
+        user.setUserAccessCode(39820);
+        user.setLastPasswordChangeDate(new java.sql.Timestamp(1460977054273l));
         java.util.List<PassRecovery> listOfPassRecovery = new java.util.ArrayList<PassRecovery>();
         PassRecovery passrecovery = new PassRecovery();
         Question question = new Question();
-        question.setQuestion("1e5LSbCmOVZrshuv7Uh8ZagEc9ns7P7ZiHrKghvxHaw1as10fu");
-        question.setQuestionDetails("0pCNAKT7A0");
-        question.setLevelid(8);
-        question.setQuestionIcon("JERwXwgzMNQxF8HwfwRjIuVBgzqLYznDFncGNSeBoj1UcZopj6");
+        question.setQuestion("GVB59qOChg5bxwhMdoGG0tYxh5CZZyDSZEfTJQZwdAywUi4Dfe");
+        question.setQuestionDetails("K7Ng0q4ipn");
+        question.setLevelid(3);
+        question.setQuestionIcon("XZLcSbTsStxJWQC9dTgP8Q7Uo3kF1D8l2bn8CFugsJQSxyJSED");
         Question QuestionTest = new Question();
         if (isSave) {
             QuestionTest = questionRepository.save(question);
             map.put("QuestionPrimaryKey", question._getPrimarykey());
         }
         passrecovery.setQuestionId((java.lang.String) QuestionTest._getPrimarykey()); /* ******Adding refrenced table data */
-        passrecovery.setAnswer("9J9ban4bPspVT9H9pQrPQ25dYhmd2Y3kql2kNfe2sTwKShGZZu");
+        passrecovery.setAnswer("X9ioBxFeIL60iPJkxznFNTjJhKSP2HFw1f15rBQBfgwTtQjUNN");
         passrecovery.setUser(user);
         listOfPassRecovery.add(passrecovery);
         user.addAllPassRecovery(listOfPassRecovery);
         UserData userdata = new UserData();
-        userdata.setLast5Passwords("nAKieWSVfDBC8xyDkTMpOGQSFKXzJVx6e4YDDDe9r05dGig6XQ");
-        userdata.setOneTimePassword("n3hqWqCTdSfoCVJA548dripMdICTXoAg");
-        userdata.setOneTimePasswordGenDate(new java.sql.Timestamp(1460975175095l));
-        userdata.setPassword("n14pYtGiOjtCquYpj1zAyTLZfzrY5UT5wQRN4cFIXKWAblAMmr");
-        userdata.setLast5Passwords("Bgp19wd88eJqdEYkC59rD2lIkpkscMp8zHrP53LXUSoHfDmwdh");
-        userdata.setOneTimePassword("fdyFdsif3uWqEr9GRSvRj063wLde4VR3");
-        userdata.setOneTimePasswordGenDate(new java.sql.Timestamp(1460975175113l));
-        userdata.setPassword("aii9BetjO1IVlKxurEDFiTUhe8VaQpb5uXWWL0lxnr0RrpJs3C");
+        userdata.setLast5Passwords("WWFOywywZkFjPwqnEqekagXYCCXjqhxVLd17KlCq590VC9WAVA");
+        userdata.setOneTimePassword("N4ENYY4FBUfQ2Ju4aKoUHBphGfHUJfNw");
+        userdata.setOneTimePasswordGenDate(new java.sql.Timestamp(1460977054497l));
+        userdata.setPassword("hj09x9fG2ACy4d3xyfzVMSbAyiGmoCzMTt7Q4DKTRJdyOECLYy");
+        userdata.setLast5Passwords("22bMMjTjbvhGNjM9PaAd58MUBeGHLlESPHD8fPgcNnZUUNJNY0");
+        userdata.setOneTimePassword("ECDXAhWM8mTKDtL1FweRCGbqY1AhJt7O");
+        userdata.setOneTimePasswordGenDate(new java.sql.Timestamp(1460977054529l));
+        userdata.setPassword("67W2bthuFV9R1ZyLxxt8QEnCB08m31owWz6TlJuTRW7ijiKojF");
         userdata.setUser(user);
-        userdata.setOneTimePasswordExpiry(4);
+        userdata.setOneTimePasswordExpiry(11);
         user.setUserData(userdata);
         CoreContacts corecontacts = new CoreContacts();
-        corecontacts.setNativeLastName("RYlkjQFvOqPk9pAbCSqAw9FVIvwO234yUv6tCZvHzCVOPxHpWP");
-        corecontacts.setApproximateDOB(new java.sql.Timestamp(1460975175205l));
-        corecontacts.setPhoneNumber("QMVepBNBYfZrGhC3DMoh");
-        corecontacts.setNativeMiddleName("FtSeUF86gi6SBVazq4BfTUAeznFruZ4EK4kt5R2YNLerFGK42q");
+        corecontacts.setNativeLastName("zUbE3k0epeilInKZnAblVO9iBOeEqk5IzwomG4Pj3InXd00jlz");
+        corecontacts.setApproximateDOB(new java.sql.Timestamp(1460977054649l));
+        corecontacts.setPhoneNumber("JP1AqYJOH6kpDsbNr2sW");
+        corecontacts.setNativeMiddleName("SWgT7bnCAKKq54JVWyZiZM7xxt5x3kefRzH6gA7bAJNNudnlRW");
         Gender gender = new Gender();
-        gender.setGender("1yqP37XQprb9jXhsG16hqvKArQSQiKjI0CIIzvcGuexosk8Zdl");
+        gender.setGender("92X6rGzJRNnNZV1wSWm0Bo6xOsEZVWXbd3Npquosg3YjBUqSKg");
         Gender GenderTest = new Gender();
         if (isSave) {
             GenderTest = genderRepository.save(gender);
             map.put("GenderPrimaryKey", gender._getPrimarykey());
         }
         Language language = new Language();
-        language.setAlpha2("7A");
-        language.setLanguageType("OpZSi9S8gHtiNoRyjhlRLP6wJ5oS6nk9");
-        language.setLanguage("Hgw9AlqJLKmlGJyuIg0DGKNwXLuxgqYEfqoHMPWAkdNiVBsw97");
-        language.setAlpha3("pAs");
-        language.setAlpha4("7Nao");
-        language.setLanguageDescription("CfmyRGhrFE2JEceFttS3l6zcsPZQZQ2Tg79TR0eiFnTpnsSX0l");
-        language.setLanguageIcon("Cm2sCj3YIoLCdcZi8vUHBvASQWo4kJ6ggrpciOC73tCdp3Xt0B");
-        language.setAlpha4parentid(9);
+        language.setAlpha2("IQ");
+        language.setLanguageType("BXDjRZk0ZEwadMFp41NX3ZrWBwlgEWqY");
+        language.setLanguage("jCKPGrPVI7clcpnu1U66T3RlfvTAT1Xz3d3bquco0bH5izv2mQ");
+        language.setAlpha3("1zo");
+        language.setAlpha4("6kZW");
+        language.setLanguageDescription("1Fni0yi0yx83XovTAi9BXF8IwIoYz9GceMfAfbakJFLNRlU0wJ");
+        language.setLanguageIcon("1gtfiZmXGFMA8Bq1wFAbxAXFjm8GzBgA4u7OWWOrZ7kWYQeLhQ");
+        language.setAlpha4parentid(6);
         Language LanguageTest = new Language();
         if (isSave) {
             LanguageTest = languageRepository.save(language);
             map.put("LanguagePrimaryKey", language._getPrimarykey());
         }
         Title title = new Title();
-        title.setTitles("VPiXV0Q13mgWVL8Cy21tlUH1PNiQUNSxx07meydPA8g4EF2ixi");
+        title.setTitles("wNq1k9GgsuytyiE5JOh87C0p9ziKyIIAEeglCejBgji5in8wGN");
         Title TitleTest = new Title();
         if (isSave) {
             TitleTest = titleRepository.save(title);
             map.put("TitlePrimaryKey", title._getPrimarykey());
         }
         Timezone timezone = new Timezone();
-        timezone.setTimeZoneLabel("RcxvWqdYuC0DHkkRM9DxjsKVTvEUFCaVIZEBwQONJ8uYngGADE");
-        timezone.setCities("17OZMFjBnvILIeDtm4yDbSH3uh2jNBHsVkCOga6qav2NVQ5www");
-        timezone.setUtcdifference(10);
-        timezone.setCountry("Q9nrFiJKm0j90ac7StKaaRXNnEQ9PypJZCNxSC2EOVTPGD5OaL");
-        timezone.setGmtLabel("8NxBJHMReUdAkBajJFeFgMOKNg22JFnuZgHUvPESTOkT3GzkfY");
-        corecontacts.setNativeLastName("YWgrX6LPGA5AAGpyDvWQNAt3ogyRESkYiT5YlEGZB1p4JN0VWd");
-        corecontacts.setApproximateDOB(new java.sql.Timestamp(1460975175225l));
-        corecontacts.setPhoneNumber("dgnB7AMaipZ4XuhCS5sd");
-        corecontacts.setNativeMiddleName("iUtyzpvNG25ZZ3DNNA7OlKG2RvunwGYW10oQWwoUuMnhGn9R4K");
+        timezone.setTimeZoneLabel("g56uKmrgRCdqFLnLu0j08Xg9UxrOmlp5drPsYxjNVXT4Z1PlQZ");
+        timezone.setCities("5j19r7jNwxfzqyrlPdXLIq1yZL8prtIoDosLddohi4CtbbmvIH");
+        timezone.setUtcdifference(9);
+        timezone.setCountry("elYgz548NWxAmMfwMaetsiXhMa7V1UxrcLhvy86YQIiBoo3JDV");
+        timezone.setGmtLabel("VmNoMTgRClIV98bQXvM8e5yE4PDuilhVoZRcSg0bXlFCz1MePE");
+        corecontacts.setNativeLastName("fDP6iVzo8EC9YPtgRPrIsemjFPtwpETaKuegReXPFHBFkzAjIf");
+        corecontacts.setApproximateDOB(new java.sql.Timestamp(1460977054670l));
+        corecontacts.setPhoneNumber("OXe3OlO878Aq4tztJgaz");
+        corecontacts.setNativeMiddleName("PTDuiwJ3IefzeAhVn1I2bESkE0YLzqjgOFAvqWAPhDOPnVOoMe");
         corecontacts.setGenderId((java.lang.String) GenderTest._getPrimarykey()); /* ******Adding refrenced table data */
-        corecontacts.setMiddleName("RR32NEcWLNZyQI9YF45uusPk78dDdWsNvkCII91Q2K9vofWJNN");
-        corecontacts.setNativeTitle("PQkHS8DRvot4HS3ANGp3wFGGsMgN7iTZSvZYIPLgPhAyZmyJUi");
-        corecontacts.setAge(96);
-        corecontacts.setEmailId("bleFOXx8VFuVw8oplmTdimUr9F8D7Brh1llEMEg79IhXgQxHlM");
+        corecontacts.setMiddleName("5usd9xc5ogfC138cqL0RgW388gBaumTsJdKLMP6aSkW4aXJD2d");
+        corecontacts.setNativeTitle("1KxLqxOKZjd8ERQiZ3hvl8ZV0ISYFZx6Vvy484C3L7HuTZzOxa");
+        corecontacts.setAge(77);
+        corecontacts.setEmailId("e6zQe0mcM0IfCJTLOmn8xUirVgmlTqV1mocQuP6tMcQdZIB5Jl");
         corecontacts.setNativeLanguageCode((java.lang.String) LanguageTest._getPrimarykey()); /* ******Adding refrenced table data */
-        corecontacts.setLastName("to5MOBLoeAWzfOgJVUu67LbkZbOhW9QU04bE3R8MbE5LZuNAXA");
+        corecontacts.setLastName("qftLKr682JDjOWHJm57LaxEyccOws7PTv6kkoXWu1JhUVWnBdf");
         corecontacts.setTitleId((java.lang.String) TitleTest._getPrimarykey()); /* ******Adding refrenced table data */
-        corecontacts.setNativeFirstName("Sgu6xbczJUEt5LoJ4wAmLtSq6uVWJp0G8nILA8FqWEDCcs96nq");
+        corecontacts.setNativeFirstName("vVWPGP6CMemsoghvSJyEnDNfi6bYahFrbYMnTxeAYRbGCoYPtA");
         timezone.setTimeZoneId(null);
         corecontacts.setTimezone(isSave ? timezoneRepository.save(timezone) : timezone);
         if (isSave) {
             map.put("TimezonePrimaryKey", timezone._getPrimarykey());
         }
-        corecontacts.setDateofbirth(new java.sql.Timestamp(1460975175349l));
-        corecontacts.setFirstName("hdoOQfZEVBRDpOqPcdA9VTGmaQAzErx7plqkTwTEcDIcM5oH03");
+        corecontacts.setDateofbirth(new java.sql.Timestamp(1460977054803l));
+        corecontacts.setFirstName("IpA5IwdG44ogTaEGG4eVW7YlE3QU4DHV8Spb4ZTNO8SlKsYDFB");
         java.util.List<CommunicationData> listOfCommunicationData = new java.util.ArrayList<CommunicationData>();
         CommunicationData communicationdata = new CommunicationData();
-        communicationdata.setCommData("e3VvAl0ruA");
+        communicationdata.setCommData("1pvXrqPKbz");
         CommunicationType communicationtype = new CommunicationType();
-        communicationtype.setCommTypeName("fpu3UHxxaF2cd4pc5dUhKfJWaOeHRx0pmUzlgDPTkSnVK02ipb");
-        communicationtype.setCommTypeDescription("bfb4x4B5c3v80hSkB4mlOXsfiBKX6ueuslQRxBQjCwlwz97TqZ");
+        communicationtype.setCommTypeName("m8HqJZNWF37zzArBfOTZSPmJ96AdO4JlhJxKardpgqxPrIQ0gn");
+        communicationtype.setCommTypeDescription("bAIgUkTo8QGExau6GCtcY8fxBziI2g14VDOl42KwHAMDwvVCXu");
         CommunicationGroup communicationgroup = new CommunicationGroup();
-        communicationgroup.setCommGroupDescription("HRplMoyL7HOSkPge5UAPKlbIV5nqfyNvJQrstGKGiHQoLQzzjh");
-        communicationgroup.setCommGroupName("6lUBp0bkhHpSGMy8MeUYB8mxNcHkDBjqsmOp7Sv09sDfjXqeU7");
+        communicationgroup.setCommGroupDescription("7lTfFBbNedSPl2F1AuXYGHgOMJ1lzGJKVhvn6Ch9STTtBgr30K");
+        communicationgroup.setCommGroupName("KSzIkjxmvNdBaYV16un1zEo37YmvhgSKCx2rb83DsJXlpA1KO0");
         CommunicationGroup CommunicationGroupTest = new CommunicationGroup();
         if (isSave) {
             CommunicationGroupTest = communicationgroupRepository.save(communicationgroup);
             map.put("CommunicationGroupPrimaryKey", communicationgroup._getPrimarykey());
         }
-        communicationtype.setCommTypeName("GYweGMT35FBis3d6eqaPrXrhM9YotWjUPG0mnK0znSF8tJDJKA");
-        communicationtype.setCommTypeDescription("4rYgaPAJaDjn7S52yZWbLfJ215VA40sb1mEy7c99CIxeBcomxG");
+        communicationtype.setCommTypeName("ByjpHo77nfY0TOLQfBjSw60nENG9QCjcwqj7STrXJFHm5nh7UG");
+        communicationtype.setCommTypeDescription("nFt4zfv8nZNKREqSo2uzuXiLcTsXZNLnCKDIOK2h58M1n6YXnv");
         communicationtype.setCommGroupId((java.lang.String) CommunicationGroupTest._getPrimarykey()); /* ******Adding refrenced table data */
         CommunicationType CommunicationTypeTest = new CommunicationType();
         if (isSave) {
             CommunicationTypeTest = communicationtypeRepository.save(communicationtype);
             map.put("CommunicationTypePrimaryKey", communicationtype._getPrimarykey());
         }
-        communicationdata.setCommData("m8XVm9zZeY");
+        communicationdata.setCommData("uCNfy0XOOp");
         communicationdata.setCommType((java.lang.String) CommunicationTypeTest._getPrimarykey()); /* ******Adding refrenced table data */
         communicationdata.setCommGroupId((java.lang.String) CommunicationGroupTest._getPrimarykey()); /* ******Adding refrenced table data */
         listOfCommunicationData.add(communicationdata);
         corecontacts.addAllCommunicationData(listOfCommunicationData);
         java.util.List<Address> listOfAddress = new java.util.ArrayList<Address>();
         Address address = new Address();
-        address.setAddress1("Izq6UYI1rIHmNeD5LDRCEv1TK3ARdOBMtm5eAJ1GzO8vq81TQi");
+        address.setAddress1("IeJTYeoudPH7O5vfcA1vKMmL8kHfr2t6BQorczctfWmvsQodSV");
         AddressType addresstype = new AddressType();
-        addresstype.setAddressTypeIcon("lcAJAqt0Ph5xLnMXd7Epnb0uRp6x3SCbL1KZIuN5TynNj9gDbm");
-        addresstype.setAddressTypeDesc("e82HoSKpgBtkmu7L5cB22vOWsxjiBJxb7NmqwFQVmjQ2mtdgvg");
-        addresstype.setAddressType("srb16emvcykfYSV5qRVBMizOxyla1p2aqfexVA1FFK2H8b5aug");
+        addresstype.setAddressTypeIcon("flcPRCMLYESOU87t0PZDdRb0CC2lljUr6bClHZO2PlZcKKdOQb");
+        addresstype.setAddressTypeDesc("YrT2sJ0rsz1mWxEV0sjUivr1eiH1LIQY7EgVDSLRTN4TPX70MC");
+        addresstype.setAddressType("EedpaJ8IgalS8CbG9PPPlJ1Gn6OyRjO7IejIORWYwHbGePxDD5");
         AddressType AddressTypeTest = new AddressType();
         if (isSave) {
             AddressTypeTest = addresstypeRepository.save(addresstype);
             map.put("AddressTypePrimaryKey", addresstype._getPrimarykey());
         }
         City city = new City();
-        city.setCityName("cyyBas3bDv3X9F8uolThjd8owQBodVntREZztw3SHBlrFDjgqR");
+        city.setCityName("Y70FoWDZx3E7St29Qcsf2UhlyUPwWn7XXCGdTV7bC3f46SRTZg");
         State state = new State();
-        state.setStateName("EXnkjSlruN66vaQcj9his9jk1JAVXvQmmKjq9TfJkuYJmjAKys");
-        state.setStateDescription("9JsgfA9BpZppy99PBVFYLkhAh4CIrTSCmnm3sMQBrKXiwSpmph");
+        state.setStateName("ZmHYMLVTCi2VNSYaEeG3IG5QXFbo3Cs67c3khZhjHsj7w6QMpE");
+        state.setStateDescription("luXub03DJtvNNdI1ojKHWSsBGHYrcyUAwXlIku0jfVhkEXe1he");
         Country country = new Country();
-        country.setCurrencyName("CWEzH3ph5GoEg7VGAXZwa6jHlA4I5iMqaV0HUvZFstJZnbqz55");
-        country.setIsoNumeric(410);
-        country.setCurrencySymbol("BOZkJOPo5lLHtA4mmqWZrFwNH8yrUpU1");
-        country.setCountryName("KWnwncVaAkqyZlwkpWgrtoyliJRVB2UpJW47TMCS8eK0WUyjes");
-        country.setCapitalLongitude(3);
-        country.setCapital("k7FHUI8gcpIJI2l3OW57OP8A3b0ooQsK");
-        country.setCountryFlag("5TzBFSIQvChF9nSncZdayJP63tS7q6kU26B84MULmcsVvOxOJi");
-        country.setCapitalLatitude(10);
-        country.setCountryCode2("OGZ");
-        country.setCountryCode1("R2Z");
-        country.setCurrencyCode("zCr");
+        country.setCurrencyName("Lyhr39aAICw1z01FsAHZYqwpNqSxbbC7js4Sc6ykkV6I5FkeNo");
+        country.setIsoNumeric(827);
+        country.setCurrencySymbol("L4s1wGTt6YqIWs7A8PwMeZnjl2XWXNlC");
+        country.setCountryName("OL2nunE71CBeAz1ABrSm4AlrJQ2crjzWYjfBBbxgucPBKoryXZ");
+        country.setCapitalLongitude(5);
+        country.setCapital("5pVHDL9qh8OVa1MyhPQbIts5CIuNm0zj");
+        country.setCountryFlag("J3SunWK0nGEVGQbIG1doB47rFDWroadsR10kjypGzEKbZWCSx2");
+        country.setCapitalLatitude(6);
+        country.setCountryCode2("yUJ");
+        country.setCountryCode1("p8o");
+        country.setCurrencyCode("PPx");
         Country CountryTest = new Country();
         if (isSave) {
             CountryTest = countryRepository.save(country);
             map.put("CountryPrimaryKey", country._getPrimarykey());
         }
-        state.setStateName("jQrzVjLXtLY61WTkCzlFtZxSOiDGoxoaxSutHp9CaOhoVphKdS");
-        state.setStateDescription("LjxP6KMiEl54iajwGV0xVCVu1SOJb7DsEfys10ReHfbbK5DuAK");
+        state.setStateName("hVbw1xrVgBSvtieokCZ3LtJvGlBk8kF1yFdg2oMpnldeR8fj1V");
+        state.setStateDescription("sjkUYf0T1vMZxLG24Q6Z5MZuLJ9OCIfGX2X0LPbt0RK1UfooYu");
         state.setCountryId((java.lang.String) CountryTest._getPrimarykey()); /* ******Adding refrenced table data */
-        state.setStateCodeChar3("Cb7ZaJtsZn5NV6ytyuIqeNn7Sj08deAH");
-        state.setStateCapitalLongitude(11);
-        state.setStateFlag("ylxoeoRDviB3SDESyC0CfcsOvjaiomWoQJkGsTMSF6Al6vYvCG");
-        state.setStateCapitalLatitude(11);
-        state.setStateCodeChar2("O1gRisDt0ZeyJTXg8srXTYm89tFqNKZ9");
-        state.setStateCapital("FolYgyHSdOAq6hY4bHr0ryL2WWUd6OM0qKsJ7WqswwukPwR4XR");
+        state.setStateCodeChar3("hrkOhc72cyfRoxTkcJUeBu4A0iqEL8Vp");
+        state.setStateCapitalLongitude(6);
+        state.setStateFlag("1q8z8fk6mufIYQo4ijON8FRdyAxa38uWXd4X3afXivsLZnKcpO");
+        state.setStateCapitalLatitude(7);
+        state.setStateCodeChar2("0wdI2vcbGdQLu8AUgXdARzfOAxGEyuRn");
+        state.setStateCapital("EuOENCh8zrJfK1jo7dxKJCdRbx7sHgeuhciOPuaJc9OcnCSZ8q");
         state.setStateCode(1);
         State StateTest = new State();
         if (isSave) {
             StateTest = stateRepository.save(state);
             map.put("StatePrimaryKey", state._getPrimarykey());
         }
-        city.setCityName("vmWm6YIUtoPVtjQ15CnZeIGeJmcxG952TmFUEqonCRxAPy90GT");
+        city.setCityName("SQIOYMVbnt6UnjVHg4utKhw48afKykiXbeKcW59EUhPa0zYcwD");
         city.setStateId((java.lang.String) StateTest._getPrimarykey()); /* ******Adding refrenced table data */
-        city.setCityDescription("85cGUetNJnAdkvv6HVRZMuGo4HEVRHGo2BONK7eFvWQGiOhLyh");
-        city.setCityCodeChar2("YDFvFgQMfZhL0XNxj5UsJdXLvVUxBibt");
-        city.setCityCode(2);
-        city.setCityLatitude(8);
+        city.setCityDescription("T8vQxAHaICWT1Rglg7LNj4xWcaWPpJTEonamhqsedu1fPineCL");
+        city.setCityCodeChar2("Okca05KXpyoVdD5fOQHV16SD0sFabTUN");
+        city.setCityCode(3);
+        city.setCityLatitude(11);
         city.setCountryId((java.lang.String) CountryTest._getPrimarykey()); /* ******Adding refrenced table data */
-        city.setCityFlag("iusx9bElxeNe3MWU34M3AIkaMGROnCJjMGHDxhfOD9frIMpzZ8");
-        city.setCityLongitude(10);
+        city.setCityFlag("V1q5FlYrqJoZiV0bsm6BFS5oa4alm9ro1sjbLD3cEEmN7Y5gXG");
+        city.setCityLongitude(6);
         City CityTest = new City();
         if (isSave) {
             CityTest = cityRepository.save(city);
             map.put("CityPrimaryKey", city._getPrimarykey());
         }
-        address.setAddress1("TWY69f5hcIYU3vO7iABvWjSIJ5o8ICwcwayUGHj88yRwkufvwT");
+        address.setAddress1("gywopsnQmqBzD8XnZ1JiX2c9f1Zudo7qaaC9quVPr6FoVq2DV8");
         address.setAddressTypeId((java.lang.String) AddressTypeTest._getPrimarykey()); /* ******Adding refrenced table data */
         address.setCityId((java.lang.String) CityTest._getPrimarykey()); /* ******Adding refrenced table data */
         address.setStateId((java.lang.String) StateTest._getPrimarykey()); /* ******Adding refrenced table data */
-        address.setAddress2("r7jnmjFaENuAGIrqvDMlf8gGy1cQUMsx9ZadDZYLaJtHq9GAbD");
-        address.setLongitude("fNxF28c6Do1HM5tR4vJKOcIoCgf09hLcDecHf9CioBGJEYnPLT");
-        address.setZipcode("ALUSqT");
+        address.setAddress2("QoGarr3t4Lo5qU97CPa9HcE1450HvFoC451iy5gqHjqlCUak3X");
+        address.setLongitude("ZIUBD7cy2qTN5PfGVQvXdX8by8vHzaQJYZBayob69VDYtvPPcv");
+        address.setZipcode("VWLqrH");
         address.setCountryId((java.lang.String) CountryTest._getPrimarykey());
-        address.setAddress3("e6Jxc5MH4BztNYbs9jdHjWPor165mFJB69jkxW577rpqyVmzpn");
-        address.setLatitude("D3QfEX3Y7QXZiW7UfCgFFSN9w4Fw74royD3b2QkEaGuMy1sPHS");
-        address.setAddressLabel("Muxcoa5ljHh");
+        address.setAddress3("5ctrFZsIGlHDVGfFXWodP6WjDhaY01eXjB77zXZgBfNaKhSceu");
+        address.setLatitude("8S66GmWrbxj2AGi6A8o0uHOZZeSxrnaVxATrUGjASjZZblsOuh");
+        address.setAddressLabel("RmdTqEhOg7P");
         listOfAddress.add(address);
         corecontacts.addAllAddress(listOfAddress);
         Login login = new Login();
         login.setIsAuthenticated(true);
-        login.setServerAuthImage("AyVIfGK0d7qdEyWnB4zC25NCEBUwmsSi");
-        login.setServerAuthText("EQxKwPt0QPaNPnoh");
-        login.setLoginId("U3rUqGjDPt8B1uWZi4S8LWpaniC0Vx200gYykUAYnVSJNlNHLq");
+        login.setServerAuthImage("BwJ6I3UZjCOMGtgq4sRw5E7HsOx3ZyIO");
+        login.setServerAuthText("f55AQQI0zoSW7wen");
+        login.setLoginId("X5TvNsZUL1uhzVx46PavCywKgXhIsYMLOyxbKT9BTAM4x0VT77");
         user.setUserId(null);
         login.setUser(user);
-        login.setFailedLoginAttempts(4);
+        login.setFailedLoginAttempts(3);
         corecontacts.setContactId(null);
         login.setCoreContacts(corecontacts);
         login.setEntityValidator(entityValidator);
@@ -450,11 +450,11 @@ public class LoginTestCase extends EntityTestCriteria {
         try {
             org.junit.Assert.assertNotNull(map.get("LoginPrimaryKey"));
             Login login = loginRepository.findById((java.lang.String) map.get("LoginPrimaryKey"));
-            login.setServerAuthImage("rOXgDQ2go0WjheywQTz3AWksaE9Qf8mg");
-            login.setServerAuthText("UKNMehuyUoJgCVHF");
-            login.setLoginId("l4u7iipVJmHzTKbAwcZ3rxLEixXBZnlBOmbVWOhKiefzC1yz05");
+            login.setServerAuthImage("cD4JoBDxWwsWHFFfFPJjg2HyxHJyYzdY");
+            login.setServerAuthText("wnAu68Y7WH2e32q6");
+            login.setLoginId("MFNZpCKLZT5xdlFyfOOkhwfSkGaZ5vC4QIQgKxbYv2l30Fjibu");
             login.setVersionId(1);
-            login.setFailedLoginAttempts(7);
+            login.setFailedLoginAttempts(9);
             login.setEntityAudit(1, "xyz", RECORD_TYPE.UPDATE);
             loginRepository.update(login);
         } catch (com.athena.framework.server.exception.repository.SpartanPersistenceException e) {
@@ -534,10 +534,10 @@ public class LoginTestCase extends EntityTestCriteria {
     private List<EntityTestCriteria> addingListOfFieldForNegativeTesting() {
         List<EntityTestCriteria> entityContraints = new java.util.ArrayList<EntityTestCriteria>();
         entityContraints.add(new EntityTestCriteria(NOT_NULL, 1, "loginId", null));
-        entityContraints.add(new EntityTestCriteria(MIN_MAX, 2, "loginId", "w7WoVbw0TudeaRh8Ks3qqGz2UxoBVivdkFlmPBLBBC9BgsIJZM4MXwaWhjopstplAVBGP3sdSr4cuvWCplh9a8ouiU2jqQoqgNSOmxfXVzzL3R8tbkWHSLc6yEMfDCLbDwkm50dNXyRb5orC6gY6MBOUzgrOUeuE7ipfMpDITgia9f1aLFQrMwskOYhwPwkh5otLOyjRK"));
-        entityContraints.add(new EntityTestCriteria(MIN_MAX, 3, "serverAuthImage", "U0mgza55gI85RroL5D8xlivZp0wWahchq"));
-        entityContraints.add(new EntityTestCriteria(MIN_MAX, 4, "serverAuthText", "2ncQsdzvotqJQCnuJ"));
-        entityContraints.add(new EntityTestCriteria(MIN_MAX, 5, "failedLoginAttempts", 17));
+        entityContraints.add(new EntityTestCriteria(MIN_MAX, 2, "loginId", "XloTIYTTASi7W3NTLae0gtss6KE9BXVYn7shXcrQZHzzRsaiX2HPh4yrUks5Q5rA5C3X7talikF451SwUjvZgBiPS0wEgw7zDzOAb7BadJZf3kYbel75U6q1fGA2ErULN0CHNIyFh59fjKsSe4kMHHIuB9z3vy4TdodbaJl83GdU5PWxsGvXVsQiL8EW8brVEyslovzw4"));
+        entityContraints.add(new EntityTestCriteria(MIN_MAX, 3, "serverAuthImage", "VUZsZYh9ZUt06gqxFKehXqkGiS3kYixBL"));
+        entityContraints.add(new EntityTestCriteria(MIN_MAX, 4, "serverAuthText", "HGeN4Zyb0dw9TRsTW"));
+        entityContraints.add(new EntityTestCriteria(MIN_MAX, 5, "failedLoginAttempts", 22));
         entityContraints.add(new EntityTestCriteria(MIN_MAX, 6, "isAuthenticated", true));
         return entityContraints;
     }
