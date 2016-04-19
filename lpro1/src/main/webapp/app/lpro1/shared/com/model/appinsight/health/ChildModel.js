@@ -1,0 +1,31 @@
+Ext.define('Lpro1.lpro1.shared.com.model.appinsight.health.ChildModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "cid",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "cName",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "childAge",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});
