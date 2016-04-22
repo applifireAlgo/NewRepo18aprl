@@ -1,0 +1,31 @@
+Ext.define('Tnewone.tnewone.shared.com.model.appinsight.health.TestAModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "tt",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "tnm",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "tgen",
+          "reference": "Gender",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

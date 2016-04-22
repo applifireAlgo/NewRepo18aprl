@@ -1,0 +1,67 @@
+Ext.define('Tnewone.tnewone.web.com.view.appinsight.health.AAAAAui', {
+     "xtype": "aAAAAui",
+     "items": [{
+          "xtype": "textfield",
+          "fieldLabel": "TextField",
+          "margin": 5,
+          "bindable": "t1",
+          "name": "t1",
+          "itemId": "textfield_ext_2693"
+     }, {
+          "xtype": "textfield",
+          "fieldLabel": "TextField",
+          "margin": 5,
+          "bindable": "t2",
+          "name": "t2",
+          "itemId": "textfield_ext_2715"
+     }, {
+          "xtype": "textfield",
+          "fieldLabel": "TextField",
+          "margin": 5,
+          "bindable": "t3",
+          "name": "t3",
+          "itemId": "textfield_ext_2729"
+     }, {
+          "xtype": "textfield",
+          "fieldLabel": "TextField",
+          "margin": 5,
+          "bindable": "t4",
+          "name": "t4",
+          "itemId": "textfield_ext_2703"
+     }, {
+          "xtype": "textfield",
+          "fieldLabel": "TextField",
+          "margin": 5,
+          "bindable": "t5",
+          "name": "t5",
+          "itemId": "textfield_ext_2783"
+     }, {
+          "xtype": "button",
+          "name": "b1",
+          "text": "Button",
+          "margin": 5,
+          "itemId": "button_ext_2801",
+          "listeners": {
+               "click": "onB1Click"
+          }
+     }, {
+          "xtype": "button",
+          "name": "b2",
+          "text": "Button",
+          "margin": 5,
+          "itemId": "button_ext_2821",
+          "listeners": {
+               "click": "onB2Click"
+          }
+     }],
+     "border": true,
+     "autoScroll": true,
+     "title": "Form",
+     "margin": 5,
+     "dockedItems": [],
+     "itemId": "form_ext_2684",
+     "extend": "Ext.form.Panel",
+     "requires": ["Tnewone.tnewone.web.com.controller.appinsight.health.AAAAAuiController", "Tnewone.tnewone.shared.com.viewmodel.appinsight.health.AAAAAuiViewModel", "Tnewone.tnewone.shared.com.model.appinsight.health.AAAAAuiModel"],
+     "viewModel": "AAAAAuiViewModel",
+     "controller": "AAAAAuiController"
+});
