@@ -35,24 +35,6 @@ Ext.define('Tnewone.tnewone.web.com.view.appinsight.health.AAAAAui', {
           "bindable": "t5",
           "name": "t5",
           "itemId": "textfield_ext_2783"
-     }, {
-          "xtype": "button",
-          "name": "b1",
-          "text": "Button",
-          "margin": 5,
-          "itemId": "button_ext_2801",
-          "listeners": {
-               "click": "onB1Click"
-          }
-     }, {
-          "xtype": "button",
-          "name": "b2",
-          "text": "Button",
-          "margin": 5,
-          "itemId": "button_ext_2821",
-          "listeners": {
-               "click": "onB2Click"
-          }
      }],
      "border": true,
      "autoScroll": true,

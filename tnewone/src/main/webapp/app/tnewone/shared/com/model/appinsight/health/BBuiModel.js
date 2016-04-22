@@ -1,4 +1,4 @@
-Ext.define('Tnewone.tnewone.shared.com.model.appinsight.health.AAAAAuiModel', {
+Ext.define('Tnewone.tnewone.shared.com.model.appinsight.health.BBuiModel', {
      "extend": "Ext.data.Model",
      "fields": [{
           "name": "t1",
@@ -10,14 +10,6 @@ Ext.define('Tnewone.tnewone.shared.com.model.appinsight.health.AAAAAuiModel', {
           "defaultValue": ""
      }, {
           "name": "t3",
-          "type": "string",
-          "defaultValue": ""
-     }, {
-          "name": "t4",
-          "type": "string",
-          "defaultValue": ""
-     }, {
-          "name": "t5",
           "type": "string",
           "defaultValue": ""
      }]
