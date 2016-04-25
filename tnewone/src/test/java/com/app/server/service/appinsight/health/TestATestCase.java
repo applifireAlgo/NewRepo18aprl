@@ -105,14 +105,14 @@ public class TestATestCase extends EntityTestCriteria {
 
     private TestA createTestA(Boolean isSave) throws SpartanPersistenceException, SpartanConstraintViolationException {
         Gender gender = new Gender();
-        gender.setGender("2wXASoPTADqw3QuSYAn3IfyZKGI2daMFv17oZuXpCZ19V8tFDa");
+        gender.setGender("9Wvpbil8QxeRj9CtEdSo3e94wzC1j99bAdNBL9AJC6NhL7FZW2");
         Gender GenderTest = new Gender();
         if (isSave) {
             GenderTest = genderRepository.save(gender);
             map.put("GenderPrimaryKey", gender._getPrimarykey());
         }
         TestA testa = new TestA();
-        testa.setTnm("S8t7AOHljGpOwxGgaaXOxwWIbKsWFrTsjmYiEoCWE14FDoDjCU");
+        testa.setTnm("iBM7xs6nFRpvQ6BlOXJBH13xaUjYsEiTPvuKl9zHMufZCiU0gf");
         testa.setTgen((java.lang.String) GenderTest._getPrimarykey());
         testa.setEntityValidator(entityValidator);
         return testa;
@@ -141,7 +141,7 @@ public class TestATestCase extends EntityTestCriteria {
         try {
             org.junit.Assert.assertNotNull(map.get("TestAPrimaryKey"));
             TestA testa = testaRepository.findById((java.lang.String) map.get("TestAPrimaryKey"));
-            testa.setTnm("OjdfSVUhx7r4FQgwme9iujF0eZJWFVmyXvx7sX4FlEmKnk4BEc");
+            testa.setTnm("XFtcOkU08cEcXcYagV0UHyB0IzTds3y1ZJaB89pFn7A3nqtSoX");
             testa.setVersionId(1);
             testa.setEntityAudit(1, "xyz", RECORD_TYPE.UPDATE);
             testaRepository.update(testa);
@@ -206,7 +206,7 @@ public class TestATestCase extends EntityTestCriteria {
     private List<EntityTestCriteria> addingListOfFieldForNegativeTesting() {
         List<EntityTestCriteria> entityContraints = new java.util.ArrayList<EntityTestCriteria>();
         entityContraints.add(new EntityTestCriteria(NOT_NULL, 1, "tnm", null));
-        entityContraints.add(new EntityTestCriteria(MIN_MAX, 2, "tnm", "8DswePhXHPs9mNkcex47ZuynIfRhbQTTdO5MosoYZxfaegDp6IM1z902xacmY3OiQBQky3rNVFLmRkBNRzryD56M7OAcjITNoXyEWUk0xaOoLHBXa5sKFjZhi1tRRYDkPiybAlGDnXLIoqrch14vWP3ZUchiYtmXBGyafXvgnXsfptXtBhEy5OSFb6tCNfSKRTqbRWvzVCZKocUqmOr4fMwj6gJh5q5wDZnsQ6XsjTKA7l8bNDu8pLWbGC9abqjtW"));
+        entityContraints.add(new EntityTestCriteria(MIN_MAX, 2, "tnm", "AlmYTMgIk3Bq2Iiv3ekPHXSryeKhHFD6GywvrUksno5QkXJGVfu8IDqqbgAv0WwdVoR9zpaMjl8Sr5oEHz4RZ1CRby7nnsx529bGCoYxvkSeVCXY6dpz0CmZSMVxXS9t3J5OAX51xg6EpNCJUi1jcmMXPnzNcPXRq5CXsryxarx3DdbnWLIKGHQShuA6P71NMMSVIqVWGiLNNBqv0WmPCrH8LBqunjMOKirv8EkKQ1EIAICEv4HhlOehCrXneuo6c"));
         return entityContraints;
     }
 

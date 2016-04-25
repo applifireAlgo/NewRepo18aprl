@@ -68,6 +68,7 @@
     <class>com.app.shared.appinsight.health.TestA</class>
     <class>com.app.shared.appinsight.health.Sone</class>
     <class>com.app.shared.appinsight.health.SFour</class>
+    <class>com.app.shared.appinsight.health.TestA</class>
     </persistence-unit>
 
 </persistence>
