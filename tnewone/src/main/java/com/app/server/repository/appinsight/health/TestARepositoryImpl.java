@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.athena.framework.server.exception.biz.SpartanConstraintViolationException;
 
 @Repository
-@SourceCodeAuthorClass(createdBy = "shweta.zagade@algorhythm.co.in", updatedBy = "", versionNumber = "1", comments = "Repository for TestA Transaction table", complexity = Complexity.MEDIUM)
+@SourceCodeAuthorClass(createdBy = "shweta.zagade@algorhythm.co.in", updatedBy = "shweta.zagade@algorhythm.co.in", versionNumber = "5", comments = "Repository for TestA Transaction table", complexity = Complexity.MEDIUM)
 public class TestARepositoryImpl extends SearchInterfaceImpl implements TestARepository<TestA> {
 
     @Autowired

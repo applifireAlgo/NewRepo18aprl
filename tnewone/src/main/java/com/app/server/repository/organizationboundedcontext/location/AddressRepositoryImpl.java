@@ -15,7 +15,7 @@ import com.athena.framework.server.exception.biz.SpartanConstraintViolationExcep
 import java.util.Map;
 
 @Repository
-@SourceCodeAuthorClass(createdBy = "shweta.zagade@algorhythm.co.in", updatedBy = "", versionNumber = "1", comments = "Repository for Address Transaction table", complexity = Complexity.MEDIUM)
+@SourceCodeAuthorClass(createdBy = "shweta.zagade@algorhythm.co.in", updatedBy = "shweta.zagade@algorhythm.co.in", versionNumber = "2", comments = "Repository for Address Transaction table", complexity = Complexity.MEDIUM)
 public class AddressRepositoryImpl extends SearchInterfaceImpl implements AddressRepository<Address> {
 
     @Autowired

@@ -7,7 +7,7 @@ import java.util.List;
 import com.athena.framework.server.exception.biz.SpartanConstraintViolationException;
 import com.app.shared.aaaboundedcontext.authorization.RoleMenuBridge;
 
-@SourceCodeAuthorClass(createdBy = "shweta.zagade@algorhythm.co.in", updatedBy = "", versionNumber = "1", comments = "Repository for Roles Transaction table", complexity = Complexity.MEDIUM)
+@SourceCodeAuthorClass(createdBy = "shweta.zagade@algorhythm.co.in", updatedBy = "shweta.zagade@algorhythm.co.in", versionNumber = "2", comments = "Repository for Roles Transaction table", complexity = Complexity.MEDIUM)
 public interface RolesRepository<T> extends SearchInterface {
 
     public List<T> findAll() throws SpartanPersistenceException;

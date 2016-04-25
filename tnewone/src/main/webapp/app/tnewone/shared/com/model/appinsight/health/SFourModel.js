@@ -1,0 +1,43 @@
+Ext.define('Tnewone.tnewone.shared.com.model.appinsight.health.SFourModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "sFourid",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "sds",
+          "reference": "CoreContacts",
+          "defaultValue": ""
+     }, {
+          "name": "sffdf",
+          "reference": "Sone",
+          "defaultValue": ""
+     }, {
+          "name": "sdfs",
+          "reference": "Login",
+          "defaultValue": ""
+     }, {
+          "name": "fs",
+          "reference": "User",
+          "defaultValue": ""
+     }, {
+          "name": "dfd",
+          "reference": "Title",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

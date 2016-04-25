@@ -115,50 +115,50 @@ public class UserRoleBridgeTestCase extends EntityTestCriteria {
 
     private UserRoleBridge createUserRoleBridge(Boolean isSave) throws SpartanPersistenceException, SpartanConstraintViolationException {
         User user = new User();
-        user.setLastPasswordChangeDate(new java.sql.Timestamp(1461247763553l));
-        user.setPasswordAlgo("e3qzzTesL0W1WoKKf9kSSKlKSkxTPRtBU8rNXue13wNnrb0E91");
+        user.setLastPasswordChangeDate(new java.sql.Timestamp(1461569903982l));
+        user.setPasswordAlgo("1ykTUpD7JRNSJ8yQn06J4DSHRt7dskD1pECHgaYIomNLrVBexu");
         UserAccessDomain useraccessdomain = new UserAccessDomain();
-        useraccessdomain.setDomainDescription("tCJ14nyvmilFldysrelmMzkGEfOz2wVfxoNwseT90GqvOniHG8");
-        useraccessdomain.setDomainName("ETqDTEj1iU90E4CstsLbYF6HIRRG3jvoExBdVllGx9DyJmc3V9");
-        useraccessdomain.setDomainHelp("x96LUupKyrOQojACnRlO1Ytkl1ZRVnNgZJc1ZqVvDdZMh5d7B6");
+        useraccessdomain.setDomainDescription("zih0QsXkgALuwHrcPfbUULOfiRTJ5wu1cQWK9OefiUXsF5n4UD");
+        useraccessdomain.setDomainName("adlmP8rmWTcb2JQD4YYzhT58W0SR7PlcLl6hhOVwgdDf0U2rPG");
+        useraccessdomain.setDomainHelp("YiVprzw3RPh66r6GBXj7dEz96A55AXhewHlW5sL0m5IpUTdHQh");
         useraccessdomain.setUserAccessDomain(valueGenerator.getRandomInteger(99999, 0));
-        useraccessdomain.setDomainIcon("qs7ic2n9oN2GL8vXCvCtcTLstRSRL249LxyzUUvXq4LPB9hoE4");
+        useraccessdomain.setDomainIcon("I1q5PQJfbNQaVRvP3miDZ2mB5qyGRQUX8UgkgYhCjcbPmsdjqH");
         UserAccessDomain UserAccessDomainTest = new UserAccessDomain();
         if (isSave) {
             UserAccessDomainTest = useraccessdomainRepository.save(useraccessdomain);
             map.put("UserAccessDomainPrimaryKey", useraccessdomain._getPrimarykey());
         }
         UserAccessLevel useraccesslevel = new UserAccessLevel();
-        useraccesslevel.setLevelName("51ihDjK7i31HoDlCkntPyQI73A2CPtliW77VfRRX9rWXXW4vLa");
-        useraccesslevel.setLevelDescription("7e329envGtd5ARPbhC0DERRaWHEIdkAUc2OBwzyrUCHHs5Hq8b");
-        useraccesslevel.setLevelHelp("jX6RVWp3WbxvTJ92TqkgBihMBxikpIS3aGdHCT0apGn5LI2KjL");
+        useraccesslevel.setLevelName("Q1GHXIYgzzSipgjjfUcR5KGQ1PQXW9NfIGtuYsTsArFj9jG26y");
+        useraccesslevel.setLevelDescription("26F75sAks4mCqdP26EjEowbtLzJwBQ6fWPhAnWWc9G4fQNtCDw");
+        useraccesslevel.setLevelHelp("SrYMd3jhD1lSWuG8PPCZYExftwNoPAYBtzU2z87NReBcDBBJRU");
         useraccesslevel.setUserAccessLevel(valueGenerator.getRandomInteger(99999, 0));
-        useraccesslevel.setLevelIcon("hxNe14frShRNC7v5OL2FW54xvcgrqbxkBNW0DyNwSWBDW5JeXy");
+        useraccesslevel.setLevelIcon("fUv09NABKBsqdQIUeUPYK8djjbD96CcNN96oAlrtV6Qf7QiiQe");
         UserAccessLevel UserAccessLevelTest = new UserAccessLevel();
         if (isSave) {
             UserAccessLevelTest = useraccesslevelRepository.save(useraccesslevel);
             map.put("UserAccessLevelPrimaryKey", useraccesslevel._getPrimarykey());
         }
-        user.setLastPasswordChangeDate(new java.sql.Timestamp(1461247763565l));
-        user.setPasswordAlgo("9u9kD9iLQPH2nbYknhaKCQGeuR6wZlTWo0Yuj5tyBVXwDpNNb9");
+        user.setLastPasswordChangeDate(new java.sql.Timestamp(1461569903994l));
+        user.setPasswordAlgo("kjeJzAHmB8V7mNTPSVy5Bj3btDgTWtW4zSIBE6wmabdKRZuCcH");
         user.setUserAccessDomainId((java.lang.String) UserAccessDomainTest._getPrimarykey()); /* ******Adding refrenced table data */
-        user.setSessionTimeout(686);
+        user.setSessionTimeout(1019);
         user.setChangePasswordNextLogin(1);
         user.setIsDeleted(1);
-        user.setUserAccessCode(38182);
+        user.setUserAccessCode(23803);
         user.setAllowMultipleLogin(1);
         user.setMultiFactorAuthEnabled(1);
         user.setGenTempOneTimePassword(1);
         user.setUserAccessLevelId((java.lang.String) UserAccessLevelTest._getPrimarykey()); /* ******Adding refrenced table data */
-        user.setPasswordExpiryDate(new java.sql.Timestamp(1461247763643l));
+        user.setPasswordExpiryDate(new java.sql.Timestamp(1461569904075l));
         user.setIsLocked(1);
         java.util.List<PassRecovery> listOfPassRecovery = new java.util.ArrayList<PassRecovery>();
         PassRecovery passrecovery = new PassRecovery();
         Question question = new Question();
-        question.setQuestionDetails("fSj7EhUSKp");
-        question.setLevelid(2);
-        question.setQuestionIcon("rA1b3Gsa3JIBDhY2BOPOTSRnjnBKqtvowtM46umiFUqHOy8RTa");
-        question.setQuestion("BoVLJVUU5J691i9vj9ThDnNCGHyprLpTSGGlKajotlxZr89kii");
+        question.setQuestionDetails("syWpepQ8vk");
+        question.setLevelid(6);
+        question.setQuestionIcon("z7ekjHdDGIa76byCqCOCELzXZfKF0zcBLAjfQETvF27ZSznIOX");
+        question.setQuestion("orBUAPTlV5vSyqkmaqTSb9CXAwftg6rte6mlvKNQ455gI6P4eZ");
         Question QuestionTest = new Question();
         if (isSave) {
             QuestionTest = questionRepository.save(question);
@@ -166,16 +166,16 @@ public class UserRoleBridgeTestCase extends EntityTestCriteria {
         }
         passrecovery.setUser(user);
         passrecovery.setQuestionId((java.lang.String) QuestionTest._getPrimarykey()); /* ******Adding refrenced table data */
-        passrecovery.setAnswer("k5tdEUpN9nlifhRVByC4uIccUXKkvsgLeUmKMxjM004KbQ6szt");
+        passrecovery.setAnswer("M4f9mCwDsRNsD9kkNKwx7sXdOqXMsFyo0z2rB9nOvE5yojWXug");
         listOfPassRecovery.add(passrecovery);
         user.addAllPassRecovery(listOfPassRecovery);
         UserData userdata = new UserData();
         userdata.setUser(user);
-        userdata.setOneTimePasswordExpiry(7);
-        userdata.setOneTimePassword("FrG9fxA7twJCHoPxSquLmLqQCfDRDbrs");
-        userdata.setOneTimePasswordGenDate(new java.sql.Timestamp(1461247763862l));
-        userdata.setLast5Passwords("yzls0lflNAFbTrBmyDc7F8oJHNqW9NwNc3AiBd15oZJbAEPvHO");
-        userdata.setPassword("BG1riVivHKhxLELOxDNrhBCPTy82jIHijNwJCp2B84HWUBTJOa");
+        userdata.setOneTimePasswordExpiry(2);
+        userdata.setOneTimePassword("UCGBpA38fT4UG3SSzGEW50papJRbHZgc");
+        userdata.setOneTimePasswordGenDate(new java.sql.Timestamp(1461569904327l));
+        userdata.setLast5Passwords("9leJ8wqOhlu4Vcsz4WdIfzNcdnYWjEfb8XJUOFsjQOezoVCeeJ");
+        userdata.setPassword("ZajapTGuxFtJUtDcswdyWaSB0qlVjxsuSIcXahNfvyZK8KdDnL");
         user.setUserData(userdata);
         User UserTest = new User();
         if (isSave) {
@@ -183,10 +183,10 @@ public class UserRoleBridgeTestCase extends EntityTestCriteria {
             map.put("UserPrimaryKey", user._getPrimarykey());
         }
         Roles roles = new Roles();
-        roles.setRoleIcon("DYjxMkjIvdvzS7uf3KJR0sT0Lk8XUuV4hFvkWr16oT0BDpWSHI");
-        roles.setRoleName("K3pit3MLPApL62pOMKE4N7gfZEdsJhCFsPgJjYV6mylCjNGGQn");
-        roles.setRoleDescription("q3xh3gHCs69WqDMRXsBYJZDJoauNp2WGHoMI9MjfOwGDqerZ2a");
-        roles.setRoleHelp("AE2abp4Utx34P5g05gyM95NfwKZA46a01pkp5siTqPOHyxzu6m");
+        roles.setRoleIcon("3br54zL58EpoQyzUS33HuaZhf8Hl5UVCtP2fh7AS5DHLxdNr7G");
+        roles.setRoleName("L9a6d14tO3b2cjtEPxduhAatuZMLq8mi7TIkaUA2CwOL8muWbt");
+        roles.setRoleDescription("lwJvGkk4c9SU2pf2E3EivlORbqZwqr5DeNWmpFOfHlwmcfgff9");
+        roles.setRoleHelp("RsnaVm46CwjfuM2Cfym7Gdsl47BoQd4wS3AJcH4O3WMapBQF0J");
         Roles RolesTest = new Roles();
         if (isSave) {
             RolesTest = rolesRepository.save(roles);

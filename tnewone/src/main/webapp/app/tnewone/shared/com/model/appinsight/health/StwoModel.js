@@ -1,0 +1,31 @@
+Ext.define('Tnewone.tnewone.shared.com.model.appinsight.health.StwoModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "stwoid",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "snmn",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "sds",
+          "reference": "Gender",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

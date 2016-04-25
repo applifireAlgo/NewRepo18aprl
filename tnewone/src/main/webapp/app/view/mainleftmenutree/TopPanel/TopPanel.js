@@ -117,7 +117,7 @@ Ext.define('Tnewone.view.mainleftmenutree.TopPanel.TopPanel', {
 		      {
 		    	  text:'Cloud Drive',
 		    	  icon:'images/menu/clouddrive.png',
-		    	  /*Disable Cloud on addOn basis*/
+		    	  disabled : true,
 		    	  listeners:{
 						click:'onCloudClick',
 		    	  }

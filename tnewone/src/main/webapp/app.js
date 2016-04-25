@@ -8,7 +8,7 @@ Ext.application({
 
     extend: 'Tnewone.Application',
     
-    autoCreateViewport: 'Tnewone.view.main.Main'
+/**AppPathDetails**/autoCreateViewport: (Ext.os.deviceType=='Desktop')?'Tnewone.view.mainleftmenutree.MainPanel':'Tnewone.view.mobileview.main.MainPanel',
 	
     //-------------------------------------------------------------------------
     // Most customizations should be made to Tnewone.Application. If you need to
