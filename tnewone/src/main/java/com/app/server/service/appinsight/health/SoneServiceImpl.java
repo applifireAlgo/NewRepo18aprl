@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import com.athena.framework.server.bean.FindByBean;
 
 @RestController
-@SourceCodeAuthorClass(createdBy = "shweta.zagade@algorhythm.co.in", updatedBy = "shweta.zagade@algorhythm.co.in", versionNumber = "6", comments = "Service for Sone Transaction table", complexity = Complexity.MEDIUM)
+@SourceCodeAuthorClass(createdBy = "shweta.zagade@algorhythm.co.in", updatedBy = "shweta.zagade@algorhythm.co.in", versionNumber = "8", comments = "Service for Sone Transaction table", complexity = Complexity.MEDIUM)
 @RequestMapping("/Sone")
 public class SoneServiceImpl extends SoneService {
 

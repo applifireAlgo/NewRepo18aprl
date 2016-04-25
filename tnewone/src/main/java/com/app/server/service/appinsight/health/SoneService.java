@@ -9,7 +9,7 @@ import com.athena.framework.server.exception.repository.SpartanTransactionExcept
 import java.util.List;
 import com.athena.framework.server.bean.FindByBean;
 
-@SourceCodeAuthorClass(createdBy = "shweta.zagade@algorhythm.co.in", updatedBy = "shweta.zagade@algorhythm.co.in", versionNumber = "6", comments = "Service for Sone Transaction table", complexity = Complexity.MEDIUM)
+@SourceCodeAuthorClass(createdBy = "shweta.zagade@algorhythm.co.in", updatedBy = "shweta.zagade@algorhythm.co.in", versionNumber = "8", comments = "Service for Sone Transaction table", complexity = Complexity.MEDIUM)
 public abstract class SoneService {
 
     public HttpEntity<ResponseBean> findAll() throws Exception, SpartanPersistenceException {

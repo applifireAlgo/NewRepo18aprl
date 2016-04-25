@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.athena.framework.server.exception.biz.SpartanConstraintViolationException;
 
 @Repository
-@SourceCodeAuthorClass(createdBy = "shweta.zagade@algorhythm.co.in", updatedBy = "shweta.zagade@algorhythm.co.in", versionNumber = "6", comments = "Repository for Sone Transaction table", complexity = Complexity.MEDIUM)
+@SourceCodeAuthorClass(createdBy = "shweta.zagade@algorhythm.co.in", updatedBy = "shweta.zagade@algorhythm.co.in", versionNumber = "8", comments = "Repository for Sone Transaction table", complexity = Complexity.MEDIUM)
 public class SoneRepositoryImpl extends SearchInterfaceImpl implements SoneRepository<Sone> {
 
     @Autowired

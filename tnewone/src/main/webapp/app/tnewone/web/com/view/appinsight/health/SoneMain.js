@@ -132,7 +132,7 @@ Ext.define('Tnewone.tnewone.web.com.view.appinsight.health.SoneMain', {
                                    "margin": "5 5 5 5",
                                    "value": "-1",
                                    "fieldLabel": "versionId",
-                                   "fieldId": "9CB7EF1F-849C-4F38-8317-3E678AD36450",
+                                   "fieldId": "AEBAA81C-B8C2-4973-97EA-560E3FC0A083",
                                    "bindable": "versionId",
                                    "hidden": true
                               }]
@@ -338,7 +338,7 @@ Ext.define('Tnewone.tnewone.web.com.view.appinsight.health.SoneMain', {
                               "margin": "5 5 5 5",
                               "value": "-1",
                               "fieldLabel": "versionId",
-                              "fieldId": "9CB7EF1F-849C-4F38-8317-3E678AD36450",
+                              "fieldId": "AEBAA81C-B8C2-4973-97EA-560E3FC0A083",
                               "bindable": "versionId",
                               "hidden": true
                          }]

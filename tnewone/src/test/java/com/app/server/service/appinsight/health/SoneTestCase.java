@@ -103,7 +103,7 @@ public class SoneTestCase extends EntityTestCriteria {
 
     private Sone createSone(Boolean isSave) throws SpartanPersistenceException, SpartanConstraintViolationException {
         Sone sone = new Sone();
-        sone.setSnm("NJRrY3dhfnLrXWNfRWaY9TH9jDavHSBgJY6nS1M9xxSZZ5HE1a");
+        sone.setSnm("lZ4TynsPmtIbXjcXBsbzkpWvpFXxwfFXebXokGXAjM3qWUYC0Z");
         sone.setEntityValidator(entityValidator);
         return sone;
     }
@@ -128,7 +128,7 @@ public class SoneTestCase extends EntityTestCriteria {
         try {
             org.junit.Assert.assertNotNull(map.get("SonePrimaryKey"));
             Sone sone = soneRepository.findById((java.lang.String) map.get("SonePrimaryKey"));
-            sone.setSnm("ZGQOfMb85MmX0AOrOLcWt1X5n2yzXKWxSRzREyHiknVCU0TBp1");
+            sone.setSnm("6dC8ZCWptYaBmdqQpAxH38GI88p1k4dvng73uE17L5ZcbV4oVT");
             sone.setVersionId(1);
             sone.setEntityAudit(1, "xyz", RECORD_TYPE.UPDATE);
             soneRepository.update(sone);
@@ -178,7 +178,7 @@ public class SoneTestCase extends EntityTestCriteria {
     private List<EntityTestCriteria> addingListOfFieldForNegativeTesting() {
         List<EntityTestCriteria> entityContraints = new java.util.ArrayList<EntityTestCriteria>();
         entityContraints.add(new EntityTestCriteria(NOT_NULL, 1, "snm", null));
-        entityContraints.add(new EntityTestCriteria(MIN_MAX, 2, "snm", "eEuJMquAvgV7z7zWv2vfTNvFyk2n9vB8ZJVpDah68roB1K4Zi7yNMlJh4djxkFg8QC09ytll1aqKgHDcCHs0sojBIBc6cdKpfKWJ78t2bP22Wg8Ea0Bbf49SYHAkZNL54qGiFXNkrIKJAnJzBIooKfeLdspGKPGPOChmFU6hXuBO7pS0Mz4BSffToFji6EkxajWh7sk67y2t1C3q15qGeHCfd8xGPmDarMQDb3U8yZEc4lyBQToPXrMtamHebyG37"));
+        entityContraints.add(new EntityTestCriteria(MIN_MAX, 2, "snm", "LO86dZamyCNQ30bR9QZMEjnvWVzkGisnyHKfWVLmgBFcdX4UbPcBnAgqdBrX1fxIjRDrbgRV8obtd0OEslX2oF8bfdpPEI4prCGDgO3liqP7L7m418pAWAGg65adf8qekYIarHz2i1AyCuMMrSS3tOHU4vKAuzNfcbzj3lllZxqXRTeiRiTY5GuRMBLywJexRgwRCgccxXL9kG63f6cx26sgPicGuB5lm3VJJR0UYRPEepQOOuosXLCiFOljygBV8"));
         return entityContraints;
     }
 

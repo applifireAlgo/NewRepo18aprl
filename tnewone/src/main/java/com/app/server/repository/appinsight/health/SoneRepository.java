@@ -6,7 +6,7 @@ import com.athena.framework.server.exception.repository.SpartanPersistenceExcept
 import java.util.List;
 import com.athena.framework.server.exception.biz.SpartanConstraintViolationException;
 
-@SourceCodeAuthorClass(createdBy = "shweta.zagade@algorhythm.co.in", updatedBy = "shweta.zagade@algorhythm.co.in", versionNumber = "6", comments = "Repository for Sone Transaction table", complexity = Complexity.MEDIUM)
+@SourceCodeAuthorClass(createdBy = "shweta.zagade@algorhythm.co.in", updatedBy = "shweta.zagade@algorhythm.co.in", versionNumber = "8", comments = "Repository for Sone Transaction table", complexity = Complexity.MEDIUM)
 public interface SoneRepository<T> extends SearchInterface {
 
     public List<T> findAll() throws SpartanPersistenceException;
