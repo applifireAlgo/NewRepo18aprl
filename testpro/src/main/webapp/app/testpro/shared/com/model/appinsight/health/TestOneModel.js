@@ -1,0 +1,38 @@
+Ext.define('Testpro.testpro.shared.com.model.appinsight.health.TestOneModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "tid",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "tnm",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "tno",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "gen",
+          "reference": "Gender",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "Address",
+          "reference": "AddressModel"
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

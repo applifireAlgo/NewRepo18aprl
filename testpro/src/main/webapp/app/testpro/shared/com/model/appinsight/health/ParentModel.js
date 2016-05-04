@@ -1,0 +1,34 @@
+Ext.define('Testpro.testpro.shared.com.model.appinsight.health.ParentModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "pid",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "pName",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "age",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "Child",
+          "reference": "ChildModel"
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

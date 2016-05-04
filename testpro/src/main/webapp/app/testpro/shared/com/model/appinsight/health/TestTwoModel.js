@@ -1,0 +1,31 @@
+Ext.define('Testpro.testpro.shared.com.model.appinsight.health.TestTwoModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "ttid",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "tnm",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "tno",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});
