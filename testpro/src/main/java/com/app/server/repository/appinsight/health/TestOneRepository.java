@@ -4,7 +4,7 @@ import com.app.config.annotation.Complexity;
 import com.app.config.annotation.SourceCodeAuthorClass;
 import java.util.List;
 
-@SourceCodeAuthorClass(createdBy = "shweta.zagade1209@gmail.com", updatedBy = "", versionNumber = "1", comments = "Repository for TestOne Master table Entity", complexity = Complexity.LOW)
+@SourceCodeAuthorClass(createdBy = "shweta.zagade1209@gmail.com", updatedBy = "shweta.zagade1209@gmail.com", versionNumber = "6", comments = "Repository for TestOne Master table Entity", complexity = Complexity.LOW)
 public interface TestOneRepository<T> extends SearchInterface {
 
     public List<T> findAll() throws Exception;

@@ -35,7 +35,7 @@ import javax.persistence.NamedQueries;
 @Table(name = "ast_TestOne_M")
 @Entity
 @Cache(type = CacheType.CACHE)
-@SourceCodeAuthorClass(createdBy = "shweta.zagade1209@gmail.com", updatedBy = "", versionNumber = "1", comments = "TestOne", complexity = Complexity.LOW)
+@SourceCodeAuthorClass(createdBy = "shweta.zagade1209@gmail.com", updatedBy = "shweta.zagade1209@gmail.com", versionNumber = "6", comments = "TestOne", complexity = Complexity.LOW)
 @NamedQueries({ @javax.persistence.NamedQuery(name = "TestOne.findByGen", query = "select e from TestOne e where e.systemInfo.activeStatus=1 and e.gen=:gen"), @javax.persistence.NamedQuery(name = "TestOne.findByAddressId", query = "select e from TestOne e where e.systemInfo.activeStatus=1 and e.address.addressId=:addressId"), @javax.persistence.NamedQuery(name = "TestOne.findById", query = "select e from TestOne e where e.systemInfo.activeStatus=1 and e.tid =:tid") })
 public class TestOne implements Serializable, CommonEntityInterface, Comparator<TestOne> {
 

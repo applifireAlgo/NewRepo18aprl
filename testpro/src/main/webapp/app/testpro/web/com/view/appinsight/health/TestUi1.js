@@ -1,0 +1,76 @@
+Ext.define('Testpro.testpro.web.com.view.appinsight.health.TestUi1', {
+     "xtype": "testUi1",
+     "items": [{
+          "xtype": "textfield",
+          "fieldLabel": "TextField",
+          "margin": 5,
+          "bindable": "t1",
+          "name": "t1",
+          "itemId": "textfield_ext_26904"
+     }, {
+          "xtype": "textfield",
+          "fieldLabel": "TextField",
+          "margin": 5,
+          "bindable": "t2",
+          "name": "t2",
+          "itemId": "textfield_ext_26790"
+     }, {
+          "xtype": "textfield",
+          "fieldLabel": "TextField",
+          "margin": 5,
+          "bindable": "t3",
+          "name": "t3",
+          "itemId": "textfield_ext_26800"
+     }, {
+          "xtype": "textfield",
+          "fieldLabel": "TextField",
+          "margin": 5,
+          "bindable": "t4",
+          "name": "t4",
+          "itemId": "textfield_ext_26812"
+     }, {
+          "xtype": "textfield",
+          "fieldLabel": "TextField",
+          "margin": 5,
+          "bindable": "t5",
+          "name": "t5",
+          "itemId": "textfield_ext_26826"
+     }, {
+          "xtype": "button",
+          "name": "b1",
+          "text": "Button",
+          "margin": 5,
+          "itemId": "button_ext_26842",
+          "listeners": {
+               "click": "onB1Click"
+          }
+     }, {
+          "xtype": "button",
+          "name": "b2",
+          "text": "Button",
+          "margin": 5,
+          "itemId": "button_ext_26860",
+          "listeners": {
+               "click": "onB2Click"
+          }
+     }, {
+          "xtype": "button",
+          "name": "b3",
+          "text": "Button",
+          "margin": 5,
+          "itemId": "button_ext_26880",
+          "listeners": {
+               "click": "onB3Click"
+          }
+     }],
+     "border": true,
+     "autoScroll": true,
+     "title": "Form",
+     "margin": 5,
+     "itemId": "form_ext_26759",
+     "dockedItems": [],
+     "extend": "Ext.form.Panel",
+     "requires": ["Testpro.testpro.web.com.controller.appinsight.health.TestUi1Controller", "Testpro.testpro.shared.com.viewmodel.appinsight.health.TestUi1ViewModel", "Testpro.testpro.shared.com.model.appinsight.health.TestUi1Model"],
+     "viewModel": "TestUi1ViewModel",
+     "controller": "TestUi1Controller"
+});

@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import com.athena.framework.server.bean.FindByBean;
 
 @RestController
-@SourceCodeAuthorClass(createdBy = "shweta.zagade1209@gmail.com", updatedBy = "", versionNumber = "1", comments = "Service for TestOne Master table Entity", complexity = Complexity.LOW)
+@SourceCodeAuthorClass(createdBy = "shweta.zagade1209@gmail.com", updatedBy = "shweta.zagade1209@gmail.com", versionNumber = "6", comments = "Service for TestOne Master table Entity", complexity = Complexity.LOW)
 @RequestMapping("/TestOne")
 public class TestOneServiceImpl extends TestOneService {
 

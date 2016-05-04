@@ -66,6 +66,8 @@
     <class>com.app.shared.appinsight.health.TestThree</class>
     <class>com.app.shared.appinsight.health.Aone</class>
     <class>com.app.shared.appinsight.health.Atwo</class>
+    <class>com.app.shared.organization.locationmanagement.Address</class>
+    <class>com.app.shared.appinsight.health.TestOne</class>
     </persistence-unit>
 
 </persistence>

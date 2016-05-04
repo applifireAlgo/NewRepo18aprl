@@ -133,26 +133,26 @@ public class TestOneTestCase extends EntityTestCriteria {
     private TestOne createTestOne(Boolean isSave) throws Exception {
         Address address = new Address();
         Country country = new Country();
-        country.setCapitalLongitude(8);
-        country.setCapital("ISe830XTxfyzzswEdR1S3YOSQz5wrn6a");
-        country.setCurrencyCode("TaN");
-        country.setCurrencySymbol("47Cb4YcNriSPfMB1nQiUkYzFBENC4sgy");
-        country.setCountryFlag("WE0BIJhucrBPR230nZ1NT7HmVDj3rL7tnD1qAPfkAwimEoMgpr");
-        country.setCapitalLatitude(10);
-        country.setCountryCode2("W3R");
-        country.setCurrencyName("dIY5EdGVo9EXsYrgzNF27yzFmu9OJVZYRFVex9qXm7G6vzZLoM");
-        country.setCountryName("JdQHmW1xzCQtt9UuXQTEOkOLvXlnjgyBtvu66RlrNxGtuvGWVr");
-        country.setCountryCode1("AsH");
-        country.setIsoNumeric(756);
+        country.setCapitalLongitude(6);
+        country.setCapital("rsnK1q760FApxjZ0KiFk4dBvsKCmCGZW");
+        country.setCurrencyCode("e2x");
+        country.setCurrencySymbol("9T0F4TVLplH5GTeLvhAr88A0WxBX8iki");
+        country.setCountryFlag("71SaADgwszbRlqwq0LXsfoIQDXbUVIeqtCxtNLcO5bgjKwG9Bt");
+        country.setCapitalLatitude(4);
+        country.setCountryCode2("3v0");
+        country.setCurrencyName("3A5m4djScSkLa5ugjWO2MEKCeVrq1RXuW9Im9mAw3j1b0L5E1y");
+        country.setCountryName("ANazEBHlCsgmkas16IqzDoyLJWS1r5ec8SZb0Aaq0v4h6pdqQq");
+        country.setCountryCode1("sct");
+        country.setIsoNumeric(492);
         Country CountryTest = new Country();
         if (isSave) {
             CountryTest = countryRepository.save(country);
             map.put("CountryPrimaryKey", country._getPrimarykey());
         }
         AddressType addresstype = new AddressType();
-        addresstype.setAddressTypeIcon("5llHJzo13Jz25p6N2kic7EyV999fSRgcWfFjtVjTr12FlS6xKH");
-        addresstype.setAddressType("co99e8sPQSLTSQ7r9WXr51s94CDHh12bFShVUzkLmCWm855M81");
-        addresstype.setAddressTypeDesc("dQ26h0XZEFGLvrX8p29zAjHT9ImQ1wYPTB34QxcPEkAKmHKzLb");
+        addresstype.setAddressTypeIcon("tsX32bJDAjgLbEXvYtut1mLKRtvCAVgItUJba7SXZ7OF1Gufiw");
+        addresstype.setAddressType("DTCpi20ad9OXSztqNALMsC4W7lWtAMFy6x0yFo6voJjKOK7Qlm");
+        addresstype.setAddressTypeDesc("AretdvqU4J1m4u4zSi3p7tMLfAqeHxjpeN8smWHmUwsbTw5hHr");
         AddressType AddressTypeTest = new AddressType();
         if (isSave) {
             AddressTypeTest = addresstypeRepository.save(addresstype);
@@ -162,27 +162,27 @@ public class TestOneTestCase extends EntityTestCriteria {
         State state = new State();
         state.setCountryId((java.lang.String) CountryTest._getPrimarykey()); /* ******Adding refrenced table data */
         state.setStateCode(1);
-        state.setStateCapital("gSI5MxNjc9sB7u72cvbuO0RQDZB1G7ooo5OMSeTSBW16jhJHO0");
-        state.setStateDescription("USS9PcF1pAK1I8XMH1f898fj6oTYFenDUYqOHHR4svlFPgyMmH");
-        state.setStateName("6rkatdr2wxX2GYu8VSuT5OqolwqargLFRAfubwnnh31izjRF6t");
-        state.setStateCodeChar3("cmuN32BkKaTRBrX9yI42vLd2ltnsz2jN");
-        state.setStateCapitalLongitude(2);
-        state.setStateCodeChar2("36SFxW11rSex8ig0UH83BZLkDfKTAgEb");
-        state.setStateCapitalLatitude(11);
-        state.setStateFlag("8XjgiO4JkMJHwtn5vntbnQGb1C3532EAx9vtNRhEPKuyMXbB9O");
+        state.setStateCapital("mZKFO6Hq8XlUu5ChK8CD2TQDTvjOXTFWb05DFFlXjLAzOsed5z");
+        state.setStateDescription("Pfpcr4q6fArsnaeI4XOuLNXyxsjcwDMtiHeTzdaF2aJuxiDoXK");
+        state.setStateName("NsqBJBY6PRZHV8srRyj8ySwV7tyEpMgC2CXS03MHHc3Vpo8uMF");
+        state.setStateCodeChar3("J1qOF3olmMgrjbL49cxQcWWCEBtl729e");
+        state.setStateCapitalLongitude(10);
+        state.setStateCodeChar2("l4baLWmnNexsTgOE6gHfuukmSpxfhUPZ");
+        state.setStateCapitalLatitude(10);
+        state.setStateFlag("6lPEOLEx4maZx3Cyq5OFvkEXWj6iA5UsYI1Yh87Tr9T0nyNkzh");
         State StateTest = new State();
         if (isSave) {
             StateTest = stateRepository.save(state);
             map.put("StatePrimaryKey", state._getPrimarykey());
         }
         city.setCountryId((java.lang.String) CountryTest._getPrimarykey()); /* ******Adding refrenced table data */
-        city.setCityCodeChar2("nrHiw3mEiTeLTPR3tk5Q7fDnZbSPrVbO");
-        city.setCityDescription("6IucMC9TyPk5Dk3Ld90Yo7hzD2QdOY3wgaR3NtQZudsy41M1ZW");
+        city.setCityCodeChar2("roC7uLiUHtVsLZZf3AxciZc0Zw08JTmv");
+        city.setCityDescription("YqP1VsqlS8nul6SxAjXORn5QeCG7YywbnTqTyot9TtuGqxUVQm");
         city.setCityCode(2);
-        city.setCityLongitude(5);
-        city.setCityFlag("dxbH8Bd8U8PTegT4bvJr3ro3lnr5DGXlP08bUkC4yYTUxgzrbi");
-        city.setCityName("Nb0GxWuuew2tj1qPtZ5Ua21svfmr7LUlfTbL5T7Z8KE14xsFHG");
-        city.setCityLatitude(4);
+        city.setCityLongitude(11);
+        city.setCityFlag("edchMSbwbyHOxaY0taFxPz5d8m5nGoOIUUYLov0BTlT4aQXRQm");
+        city.setCityName("C0njy1TsxGR3iMqAn4oYVa8yt8uYjP1xZTsD7EZRfXL8jlnkTb");
+        city.setCityLatitude(7);
         city.setStateId((java.lang.String) StateTest._getPrimarykey()); /* ******Adding refrenced table data */
         City CityTest = new City();
         if (isSave) {
@@ -190,18 +190,18 @@ public class TestOneTestCase extends EntityTestCriteria {
             map.put("CityPrimaryKey", city._getPrimarykey());
         }
         address.setCountryId((java.lang.String) CountryTest._getPrimarykey()); /* ******Adding refrenced table data */
-        address.setLatitude("ybo0ByXJdnxZUiLnod4dKEdNcMEvxXODf2YcCgpmWWbIpyz99e");
+        address.setLatitude("b203E8dpKg2dUjofahAqb24yXs7qUzcpLiAplRDIuZN0e6uH1r");
         address.setAddressTypeId((java.lang.String) AddressTypeTest._getPrimarykey()); /* ******Adding refrenced table data */
         address.setCityId((java.lang.String) CityTest._getPrimarykey()); /* ******Adding refrenced table data */
-        address.setZipcode("FQ0KBB");
-        address.setAddress2("nbNCNwQmSsGkSYreG5T8tqBc5ZMX3aCWYmed64voMNqeSiJKow");
-        address.setAddressLabel("ea9WuOJa2ag");
+        address.setZipcode("76kroa");
+        address.setAddress2("BOuLLsYVcFwINpq8sqTGWXXHH85MlO2LmhLGktxn0Qyk9wWwcp");
+        address.setAddressLabel("i0W8mR1SP6j");
         address.setStateId((java.lang.String) StateTest._getPrimarykey()); /* ******Adding refrenced table data */
-        address.setLongitude("7stODKJelTus7vkI10wxU961ThFJLugW7FGTTxa8SzwcyuAySj");
-        address.setAddress3("F04K28KNrciWF8r0LKqPtFi38uYx51UlmDuDuYBhxT4LR4QDHo");
-        address.setAddress1("kkcd7TZ3oH9Hdz68cQMSkSIUvfkYnH5prawTmmnTLmeUcuxCUv");
+        address.setLongitude("g1GJKFsthXRSXKKHYB5PrXM2Gkd1xUJZsnqSSUwe76oa4zLqzS");
+        address.setAddress3("mxx0nlByjhE03PH0eN0DQlU2PS1cEBtH8Xp6yW1eh4S2lCbCo7");
+        address.setAddress1("CcpKLyv3gsNWr6rlO8fg7Wk6HJarzRYwToTNdgWuV50os19lM2");
         Gender gender = new Gender();
-        gender.setGender("75MdlIBZ3o0warJStqZxfGQLkjUDCFd8Q07fM42vYOwAG1YsC3");
+        gender.setGender("sPs0Uj61byYCxq2J87nOpKQWsTU0MW7kvJdfBqRzt1euVgW0k4");
         Gender GenderTest = new Gender();
         if (isSave) {
             GenderTest = genderRepository.save(gender);
@@ -214,7 +214,7 @@ public class TestOneTestCase extends EntityTestCriteria {
             map.put("AddressPrimaryKey", address._getPrimarykey());
         }
         testone.setTno(2147483647);
-        testone.setTnm("584nobHEorlnBzdsVWYAae7s02c7FOfG9AsJmFbxfi8EKI9Jxm");
+        testone.setTnm("kFAW5IEu8kvjxSl6ikDsN7nUsivVJtB1CxEQQ0Ge7SueBMGRWf");
         testone.setGen((java.lang.String) GenderTest._getPrimarykey());
         testone.setEntityValidator(entityValidator);
         return testone;
@@ -258,7 +258,7 @@ public class TestOneTestCase extends EntityTestCriteria {
             TestOne testone = testoneRepository.findById((java.lang.String) map.get("TestOnePrimaryKey"));
             testone.setTno(2147483647);
             testone.setVersionId(1);
-            testone.setTnm("9dNkiFsdb76tlwCWWghd3uSfPXDItkXEdjs6FyZ94EbGBWy6Fw");
+            testone.setTnm("DDgJ44Y01oHXdlt6Zcen1yqPf7XO9p6BspX5TJch7Ui9r458Y4");
             testone.setEntityAudit(1, "xyz", RECORD_TYPE.UPDATE);
             testoneRepository.update(testone);
         } catch (java.lang.Exception e) {
@@ -319,7 +319,7 @@ public class TestOneTestCase extends EntityTestCriteria {
     private List<EntityTestCriteria> addingListOfFieldForNegativeTesting() {
         List<EntityTestCriteria> entityContraints = new java.util.ArrayList<EntityTestCriteria>();
         entityContraints.add(new EntityTestCriteria(NOT_NULL, 1, "tnm", null));
-        entityContraints.add(new EntityTestCriteria(MIN_MAX, 2, "tnm", "GEjwLkVRzBLdRAeDqQrP0wdYVeOUyNWGP3DDCNgfOIo8ZjAoRCN12LvYEGv4Ip1yK0CUeTlJB8d3hIZX0Edqp3frBmUMVMonU9JtnuALkpjX16bcLJoNQLfbIC5J7LnnNYA98Gfs1mRb2EM7IuvuhPtoD8usgqwG9D6Q2qLnRYESgPFXLks7rSqMNoUra3WZR40XHDAOC1eNDywql6exn64E8MKsQnZ1n3JjAKWtOxYVHAFOsElphGJ5doyzbsfip"));
+        entityContraints.add(new EntityTestCriteria(MIN_MAX, 2, "tnm", "sIcQZrOA0Sojd7iOQRxCcJkj9hi7EF3Ffy3y1UFRUZzIyr66xCDoj686QeRGh9hkjBFa20YuxPuaapZjye4xGTYEflccKIZFC8SEJiMiFSu6eyNGNqPOA1kNdoDbKdE0iWGNeEit9ySYPfoQOO2QCKhzUUmH3gzC7EaA4mQ5BfmMImqlrkH3tupqokKziRaBN4PMxXG9mywscxMfwqxMWw8DFD0oBgxhEVgjYTbtWpPwAbVQzU5hbGlZ1IVUV9quM"));
         entityContraints.add(new EntityTestCriteria(NOT_NULL, 3, "tno", null));
         return entityContraints;
     }
